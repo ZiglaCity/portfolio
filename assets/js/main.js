@@ -1,10 +1,10 @@
 // Typewriter Effect
 const roles = [
-    "Pythonist",
-    "Developer",
-    "Fast Learner",
-    "Cyber Sentinel",
-    "Tech Enthusiast"
+    "Pythonist ",
+    "Developer " ,
+    "Fast Learner ",
+    "Cyber Sentinel ",
+    "Tech Enthusiast "
 ];
 
   
