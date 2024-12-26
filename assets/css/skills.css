@@ -1,0 +1,142 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.left {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.name {
+    color: rgb(42, 5, 208);
+}
+
+.code {
+    color: rgb(42, 5, 208);
+}
+
+.left h1 {
+    font-size: 2.0em;
+    margin-bottom: 10px;
+    color: rgb(42, 5, 208);
+}
+
+.left p {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.resume-card {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Deep shadow */
+    text-align: center;
+    max-width: 500px;
+}
+
+.resume-card h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: rgb(42, 5, 208); /* Accent color */
+}
+
+.resume-card p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.resume-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: rgb(42, 5, 208); /* Button background color */
+    color: white; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.resume-button:hover {
+    background-color: rgb(42, 5, 208); /* Hover background color */
+    transform: scale(1.05); /* Hover effect */
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .left, .right {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .left h1 {
+        font-size: 1.5em;
+    }
+
+    .left p, main p {
+        font-size: 1em;
+    }
+
+    .resume-card {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .resume-card h1 {
+        font-size: 2em;
+    }
+
+    .resume-card p, .resume-button {
+        font-size: 1em;
+    }
+}
