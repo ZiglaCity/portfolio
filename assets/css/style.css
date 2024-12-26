@@ -8,9 +8,11 @@ body {
   flex-direction: column;
   background-image: url(../images/dark2.jpg);
   background-size: cover;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  overflow-x: hidden;          /* Prevent horizontal scroll */
 }
 
 body::before {
@@ -235,5 +237,11 @@ body::before {
   .profile-image img {
     width: 250px;
   }
+  
+  body {
+      background-size: cover; /* Ensures the image still covers the screen on smaller screens */
+    }
+  
+  
 }
 
