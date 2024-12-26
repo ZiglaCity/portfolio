@@ -46,6 +46,7 @@ body::before {
   font-family: 'Poppins', sans-serif; 
   display: inline-block;
   padding: 5px 10px; 
+  margin-left: 10px;
   border-radius: 8px;
   background: linear-gradient(135deg, #6a11cb, #2575fc);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
@@ -222,10 +223,10 @@ body::before {
     flex-direction: column;
     background-color: #1a1a1a;
     position: absolute;
-    top: 60px;
+    top: 10px;
     right: 0;
-    width: 40%;
-    padding: 10px 0;
+    width: 30%;
+    padding: 1rem 0;
     text-align: left;
   }
 
@@ -234,17 +235,23 @@ body::before {
   }
 
   .nav-links a {
-    padding: 10px;
+    padding: 1px;
     text-align: center;
   }
+  .intro h2{
+    font-size: medium;
+  }
 
+  .intro h1, #typewriter{
+    font-size: medium;
+  }
   .nav-toggle {
     display: flex;
   }
 
   .profile-image img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
   }
   
   body {
