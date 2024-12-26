@@ -31,7 +31,7 @@ body::before {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px;
+  padding: 15px 0px;
   color: white;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -118,13 +118,13 @@ body::before {
 
 
 .intro h1 {
-  font-size: 48px;
+  font-size: 36px;
   margin: 13px;
   
 }
 
 .name {
-  color: black;
+  color: rgb(42, 5, 208);
 }
 
 .wave {
@@ -142,20 +142,28 @@ body::before {
 }
 
 .intro h2 {
-  font-size: 36px;
+  font-size: 30px;
   margin-top: 60px;
 }
 
+
 #typewriter {
-  font-size: 36px;
-  color: black;
+  font-size: 30px;
+  color: rgb(42, 5, 208);
   font-family: Arial, sans-serif;
-  border-right: 2px solid black;
   padding: 15px;
-  padding-right: 0px;
-  background: rgba(255, 255, 255, 0.7); 
-  border-radius: 20px;
-  box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-right: 2px solid rgb(42, 5, 208); /* Cursor appearance */
+  animation: blink-caret 0.75s step-end infinite; /* Blinking cursor animation */
+}
+
+/* Blinking animation */
+@keyframes blink-caret {
+  from, to {
+      border-color: transparent;
+  }
+  50% {
+      border-color: rgb(42, 5, 208);
+  }
 }
 
 
@@ -241,7 +249,6 @@ body::before {
   body {
       background-size: cover; /* Ensures the image still covers the screen on smaller screens */
     }
-  
   
 }
 
