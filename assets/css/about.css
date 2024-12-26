@@ -1,0 +1,61 @@
+main {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.left, .right {
+  flex: 1;
+}
+
+.left {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main p{
+  color: white;
+  font-size: 20px;
+  font:bold
+}
+
+.name {
+  color: rgb(42, 5, 208);
+}
+.code{
+  color: green;
+}
+.left h1 {
+  font-size: 2.0em;
+  margin-bottom: 10px;
+  color: rgb(42, 5, 208);
+}
+
+.left p {
+  font-size: 1.1em;
+  line-height: 1.8;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  border-radius: 10px;
+}
