@@ -249,6 +249,10 @@ body::before {
     display: flex;
   }
 
+ .intro {
+  margin-right: 3rem;
+ } 
+
   .profile-image img {
     width: 200px;
     height: 200px;
