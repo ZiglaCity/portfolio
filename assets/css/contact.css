@@ -65,7 +65,7 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
     .contact-form {
-        padding: 1.5rem;
+        padding: 1rem;
     }
 }
 
