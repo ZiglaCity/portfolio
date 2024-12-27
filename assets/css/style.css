@@ -104,15 +104,12 @@ body::before {
   align-items: center;     
   gap: 20px;           
   height: 100vh;
-  text-align: center; 
   padding: 50px 20px;
   color: white;
 }
 
 .intro {
   flex: 1;            
-  max-width: 100%;          
-  text-align: left; 
   margin-left: 100px;
 
 }
@@ -120,9 +117,17 @@ body::before {
 
 .intro h1 {
   font-size: 36px;
+  text-align: left; 
   margin: 13px;
   
 }
+
+.intro h2 {
+  font-size: 30px;
+  margin-top: 40px;
+  text-align: left;
+}
+
 
 .name {
   color: rgb(42, 5, 208);
@@ -142,14 +147,10 @@ body::before {
   80% { transform: rotate(-5deg); }
 }
 
-.intro h2 {
-  font-size: 30px;
-  margin-top: 60px;
-}
-
 
 #typewriter {
   font-size: 30px;
+  white-space: nowrap;
   color: rgb(42, 5, 208);
   font-family: Arial, sans-serif;
   padding: 15px;
@@ -238,8 +239,16 @@ body::before {
     padding: 1px;
     text-align: center;
   }
+  
+  .intro {
+    width: 100%;
+    margin-right: 120px;
+    justify-items: center;
+    max-height: fit-content;
+   } 
   .intro h2{
     font-size: medium;
+    margin-top: 15px;
   }
 
   .intro h1, #typewriter{
@@ -248,10 +257,8 @@ body::before {
   .nav-toggle {
     display: flex;
   }
-
- .intro {
-  margin-right: 3rem;
- } 
+ #typewriter { 
+  width: 100%; /* Keep the typewriter text static */ }
 
   .profile-image img {
     width: 200px;
