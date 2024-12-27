@@ -116,7 +116,7 @@ main p {
 
     .left, .right {
         width: 100%;
-        padding: 20px;
+        padding: 5px;
     }
 
     .left h1 {
@@ -139,4 +139,8 @@ main p {
     .resume-card p, .resume-button {
         font-size: 1em;
     }
+
+    body, html {
+         overflow-x: hidden;
+     }
 }
