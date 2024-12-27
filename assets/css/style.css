@@ -260,6 +260,7 @@ body::before {
   
   body {
       background-size: cover; /* Ensures the image still covers the screen on smaller screens */
+      background-attachment: fixed; /* Ensure background remains fixed */
     }
   
 }
