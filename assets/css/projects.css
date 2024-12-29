@@ -1,18 +1,17 @@
 main {
     padding: 2rem;
 }
-  
+
 h1 {
     color: #f2f4f5;
     text-align: center;
     margin-bottom: 2rem;
 }
-  
+
 .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Increased min size to 350px */
     gap: 2rem;
-  
 }
 
 .project-card {
@@ -35,7 +34,7 @@ h1 {
 }
 
 .project-details {
-   padding: 1rem;
+    padding: 1rem;
 }
 
 .project-details h3 {
@@ -57,9 +56,32 @@ h1 {
     text-decoration: none;
     border-radius: 5px;
     transition: background 0.3s;
-
 }
 
 .project-details a:hover {
     background: #90e0ef;
+}
+
+
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+
+    .projects-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .project-card img {
+        height: auto;
+    }
+
+    .project-details p {
+        font-size: 1rem;
+    }
+
+    body, html {
+        overflow-x: hidden; /* Prevent horizontal scroll */
+    }
 }
