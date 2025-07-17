@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import zigla from "../assets/zigla.png";
+import { Link as ScrollLink } from "react-scroll";
 
 export default function Hero() {
   return (
@@ -65,18 +66,27 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 1 }}
         >
-          <a
-            href="#projects"
-            className="px-6 py-3 bg-purple-600 rounded-full font-bold text-lg hover:bg-purple-700 transition-all shadow-lg hover:shadow-purple-500/50"
+
+          <ScrollLink
+            to="projects"
+            smooth={true}
+            duration={500}
+            offset={-80}
+            className="px-6 py-3 bg-purple-600 rounded-full font-bold text-lg hover:bg-purple-700 transition-all shadow-lg hover:shadow-purple-500/50 cursor-pointer"
           >
             View Projects
-          </a>
-          <a
-            href="#about"
-            className="px-6 py-3 border-2 border-gray-400 rounded-full font-bold text-lg hover:bg-gray-800 hover:border-purple-400 transition-all"
+          </ScrollLink>
+
+          <ScrollLink
+            to="about"
+            smooth={true}
+            duration={500}
+            offset={-80}
+            className="px-6 py-3 border-2 border-gray-400 rounded-full font-bold text-lg hover:bg-gray-800 hover:border-purple-400 transition-all cursor-pointer"
           >
             About Me
-          </a>
+          </ScrollLink>
+
         </motion.div>
       </div>
     </section>
