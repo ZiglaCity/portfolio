@@ -6,7 +6,7 @@ export default function Blog() {
   const [selectedPost, setSelectedPost] = useState(null);
 
   return (
-    <section id="blog" className="py-16 bg-gray-900 text-white">
+    <section id="blog" className="py-16 bg-gray-950 text-white mt-7">
       <div className="max-w-6xl mx-auto px-6">
         {!selectedPost && (
           <motion.h2
@@ -63,7 +63,7 @@ export default function Blog() {
             />
             <h2 className="text-4xl font-bold mb-4">{selectedPost.title}</h2>
             <p className="text-gray-400 mb-6">{selectedPost.date}</p>
-            <p className="text-gray-300 leading-relaxed">{selectedPost.content}</p>
+            <p className="text-gray-300 leading-relaxed"   dangerouslySetInnerHTML={{ __html: selectedPost.content }}></p>
             <button
               className="mt-8 px-6 py-3 bg-purple-600 rounded-lg hover:bg-purple-700 transition"
               onClick={() => setSelectedPost(null)}

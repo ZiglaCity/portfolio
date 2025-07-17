@@ -6,12 +6,32 @@ const blogs = [
     image: "/assets/blogs/real-me.jpg",
     tags: ["Life", "Personal"],
     excerpt:
-      "Who is Zigla beyond the code? A deep dive into my world outside the IDE.",
+      "Who is Zigla beyond the code? Not everyone gets to find out—but if you're here, you're close.",
     content: `
-      People know me as the developer who grinds late nights, but there’s more to me than code.
-      I love creating, thinking big, and leaving a mark on the world. This blog is where I share
-      the side of me that doesn't live on GitHub.
-    `,
+    <p>I’m more than the commits, the PRs, or the clean UI.<br />
+    Behind the screen, there’s a mind that rarely sleeps, and a soul wired a little differently.</p>
+
+    <p>Some people know me as <strong>Solomon</strong> — calm, observant, the guy who listens more than he speaks.<br />
+    Others know me as <strong>Zigla City</strong> — the late-night builder, the architect of chaos and clarity, the one turning caffeine and silence into something real.</p>
+
+    <p>Truth is, I'm a contradiction.<br />
+    I love clean systems, but I thrive in creative mess.<br />
+    I chase perfection in code but live life in raw draft mode.<br />
+    I’m the guy who will debug an API at 3AM, then go write a poem nobody will ever read.</p>
+
+    <p>I’m not trying to be your average dev. I want to build tools that outlive me.<br />
+    I want to create things that feel like they were pulled straight out of thought — pure, raw, unfiltered.<br />
+    Sometimes, I disappear from the socials and vanish into work. That’s not by accident — I value depth over noise.</p>
+
+    <p>This blog? It’s not a diary. It’s a digital trail.<br />
+    For the curious. The few who ask: <em>“Yo, who’s really behind the keyboard?”</em></p>
+
+    <p>So if you're here, maybe you get it.<br />
+    Maybe you're not just scrolling.<br />
+    Maybe you're looking for the real me.</p>
+
+    <p><strong>You’re getting close.</strong></p>
+  `,
   },
   {
     id: 2,
