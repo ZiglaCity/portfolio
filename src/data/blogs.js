@@ -36,15 +36,35 @@ const blogs = [
   {
     id: 2,
     title: "The Big Dream",
-    date: "July 12, 2025",
+    date: "July 17, 2025",
     image: "/assets/blogs/big-dream.jpg",
-    tags: ["Vision", "Goals"],
+    tags: ["Vision", "Future"],
     excerpt:
-      "What does the ultimate version of Zigla look like? Here’s the dream I'm chasing.",
+      "Dream big or stay stuck. Here’s what drives me and where I’m headed.",
     content: `
-      My biggest dream? Building solutions that millions use daily. From AI tools like SafestCode
-      to platforms that empower developers globally. Every night of grinding is about getting closer to that dream.
-    `,
+    <p>They say dreams should scare you.<br />
+    Mine? They terrify me — and that’s how I know they’re real.</p>
+
+    <p>I don’t just want to write code.<br />
+    I want to architect systems that power the future.<br />
+    AI-driven platforms. Secure infrastructures. Tools that redefine how we interact with technology.</p>
+
+    <p>I imagine a world where my solutions run silently in the background of your life, making things faster, safer, smarter.<br />
+    A world where someone says, “Who built this?” — and my name comes up.</p>
+
+    <p>The big dream isn’t fame. It’s impact.<br />
+    I don’t need the spotlight. I need legacy.<br />
+    I want my fingerprints on the future, even if nobody sees them.</p>
+
+    <p>Sometimes, I ask myself: “Is this too much?”<br />
+    Then I remember: comfort never built history.<br />
+    Discomfort is the price of doing something legendary.</p>
+
+    <p>So here’s the plan: keep building, keep breaking limits, keep chasing the ideas that others call impossible.<br />
+    Because if your dreams don’t make people doubt you, they’re too small.</p>
+
+    <p><strong>This is The Big Dream. And I’m running toward it.</strong></p>
+  `,
   },
   {
     id: 3,
