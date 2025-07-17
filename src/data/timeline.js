@@ -4,8 +4,11 @@ const timeline = [
     role: "Backend & DevOps Engineer",
     company: "Merrylow",
     date: "Nov 2024 - Present",
-    description:
-      "Designed and implemented the backend architecture for Merrylow's platform. Deployed scalable systems with CI/CD using GitHub Actions and managed VPS environments for production.",
+    description: `
+    Leading backend development for Merrylow, a full-stack restaurant platform.
+    Designed and implemented scalable APIs, integrated caching for performance, and built secure database workflows using PostgreSQL and Prisma.
+    Set up CI/CD pipelines with GitHub Actions and managed production deployments on VPS environments, ensuring high availability and reliability.
+  `,
     tech: ["Node.js", "Express", "PostgreSQL", "Prisma", "Redis", "CI/CD"],
   },
   {
@@ -13,8 +16,11 @@ const timeline = [
     role: "Software Engineer Trainee",
     company: "A2SV (Africa to Silicon Valley)",
     date: "Feb 2025 - Present",
-    description:
-      "Sharpened problem-solving skills by solving 300+ DSA problems. Collaborated in teams to build impactful projects and contributed to open-source development.",
+    description: `
+    Selected for an elite program focused on advanced algorithms, data structures, and software engineering.
+    Solved 300+ algorithmic problems and participated in mock interviews to strengthen problem-solving skills.
+    Collaborated with diverse teams to build impactful web applications and contributed to open-source projects.
+  `,
     tech: ["Python", "Algorithms", "React", "Node.js"],
   },
   {
