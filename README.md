@@ -1,12 +1,80 @@
-# React + Vite
+# ZiglaCity Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website showcasing my skills, projects, blogs, and experience. Built with **React**, **Tailwind CSS**, and **Framer Motion**, this portfolio reflects my passion for design, technology, and storytelling(especially).
 
-Currently, two official plugins are available:
+## **Features**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Home Page**: Hero section with animated text and smooth scrolling navigation.
+- **About Page**: Dynamic introduction with creative animations and personal highlights.
+- **Projects**: Showcases real-world projects with descriptions, stacks, and GitHub/demo links.
+- **Blog**: Collection of personal and technical blogs presented with a clean layout.
+- **Contact**: Integrated contact form connected to Supabase for storing submissions.
+- **Responsive Design**: Optimized for all devices (desktop, tablet, mobile).
 
-## Expanding the ESLint configuration
+## **Tech Stack**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React, Tailwind CSS
+- **Animations**: Framer Motion
+- **Backend/Database**: Supabase (for contact form)
+- **Deployment**: GitHub Pages
+
+## **Live Demo**
+
+[**View Portfolio**](https://ziglacity.github.io/portfolio/)
+
+## **Installation**
+
+To run locally:
+
+```bash
+# Clone repository
+git clone https://github.com/ZiglaCity/portfolio.git
+
+# Navigate to folder
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## **Build & Deploy**
+
+```bash
+# Build for production
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
+```
+
+## **Folder Structure**
+
+```
+portfolio/
+│
+├── public/          # Static assets
+├── src/
+│   ├── assets/      # Images & icons
+│   ├── components/  # Reusable components
+│   ├── pages/       # Main sections (Home, About, Blog, Contact)
+│   ├── data/        # Blog & project data
+│   └── App.jsx
+│
+└── README.md
+```
+
+## **Key Highlights**
+
+- Smooth **scrolling navigation** for in-page sections.
+- Clean **blog layout** using dangerouslySetInnerHTML for flexible HTML styling.
+- **Dynamic animations** with Framer Motion for an engaging user experience.
+- Fully **responsive and optimized** for modern browsers.
+
+## **License**
+
+This project is open-source under the [MIT License](LICENSE).
+
+---
