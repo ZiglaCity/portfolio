@@ -73,8 +73,39 @@ portfolio/
 - **Dynamic animations** with Framer Motion for an engaging user experience.
 - Fully **responsive and optimized** for modern browsers.
 
+---
+
+## **Featured Blogs**
+
+Here are some of the stories you'll find in my portfolio:
+
+- **The Real Me** – Who I am beyond the code and the keyboard.
+- **The Big Dream** – My boldest goals and why I chase them.
+- **My Other Side** – Freestyle football, music, skating… the whole story.
+- **The Art of Debugging** – Debugging like a detective with a purpose.
+- **Why I'm SOLO** – My mindset as a builder and why I embrace solitude.
+- **My Silent Hours** – Why I do my best work when the world is asleep.
+- **The Love Of My Life?** – A blog that might not be what you expect.
+- **Security is Not Optional** – Why security should never be an afterthought.
+- **Why I Love FastAPI** – How FastAPI became my favorite backend framework.
+- **How I Think About AI** – My approach to AI development and ethics.
+- **10 Developer Confessions** – Raw truths every dev will relate to.
+- **The Typing Grind** – How I pushed my typing speed past 120 WPM.
+- **Learning Never Stops** – Why continuous learning is a superpower.
+- **The Merrylow Journey** – How my team and I built a full-stack platform.
+- **Why I code at 2AM?** – My Mom asks why I don't sleep, I guess its obvious.
+- **The Developer’s Paradox** – More raw truths you didn’t see coming.
+
+---
+
 ## **License**
 
 This project is open-source under the [MIT License](LICENSE).
+
+---
+
+### **Built and Maintained by the Legend himself — ZiglaCity**
+
+_Because code isn’t just logic—it’s art._
 
 ---

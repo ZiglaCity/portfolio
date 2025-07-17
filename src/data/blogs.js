@@ -478,7 +478,7 @@ const blogs = [
   `,
   },
   {
-    id: 15,
+    id: 16,
     title: "Why I'm SOLO",
     date: "July 17, 2025",
     image: new URL("../assets/blogs/solo.jpg", import.meta.url).href,
