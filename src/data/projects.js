@@ -18,7 +18,7 @@ const projects = [
   {
     title: "ZTube",
     description:
-      "Modern desktop for downloading app YouTube videos, inspired by YouTube.",
+      "Modern desktop app for downloading YouTube videos, inspired by YouTube.",
     image: "../src/assets/projects/ztube.png",
     stack: ["Python", "Tkinter", "API"],
     demoLink: "#",
@@ -43,7 +43,7 @@ const projects = [
   },
   {
     title: "LMS",
-    description: "Full-featured Learning Management System for courses.",
+    description: "Full-featured Library Management System for Universities.",
     image: "../src/assets/projects/lms.png",
     stack: ["Python", "MySQL", "Tkinter"],
     demoLink: "#",

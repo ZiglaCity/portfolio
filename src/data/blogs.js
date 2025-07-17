@@ -3,7 +3,7 @@ const blogs = [
     id: 1,
     title: "The Real Me",
     date: "January 1, 2025",
-    image: "/assets/blogs/real-me.jpg",
+    image: "../src/assets/blogs/real-me.png",
     tags: ["Life", "Personal"],
     excerpt:
       "Who is Zigla beyond the code? Not everyone gets to find out—but if you're here, you're close.",
@@ -37,7 +37,7 @@ const blogs = [
     id: 2,
     title: "The Big Dream",
     date: "January 2, 2025",
-    image: "/assets/blogs/big-dream.jpg",
+    image: "../src/assets/blogs/big-dream.png",
     tags: ["Vision", "Future"],
     excerpt:
       "Dream big or stay stuck. Here’s what drives me and where I’m headed.",
@@ -68,9 +68,50 @@ const blogs = [
   },
   {
     id: 3,
-    title: "My Silent Hours",
+    title: "My Other Side",
     date: "January 5, 2025",
-    image: "/assets/blogs/silent-hours.jpg",
+    image: "../src/assets/blogs/my-other-side.jpg",
+    tags: ["Life", "Passion"],
+    excerpt:
+      "Before the code, there was rhythm. There was a ball. There was a stage.",
+    content: `
+    <p>Most people know me as Zigla — the guy building systems and chasing big tech dreams.<br />
+    But let me pull back the curtain: <strong>I wasn’t always just about code.</strong></p>
+
+    <p>Before the screens, I lived in motion.<br />
+    Freestyle football wasn’t a side thing — it was my obsession.<br />
+    I’d spend hours perfecting spins and flicks, posting videos that hit thousands of views.<br />
+    At my peak, I had <strong>3K Instagram followers</strong> just watching me turn a ball into art.</p>
+
+    <p>And then there was music.<br />
+    Back in high school, I lived in the studio.<br />
+    Writing lyrics that felt like truth, spitting bars over beats that shook the classroom walls.<br />
+    I wasn’t just coding — I was rhyming, flowing, building verses with the same precision I now put into my functions.</p>
+
+    <p>But that’s not all.<br />
+    I was a dancer — and not just any dancer.<br />
+    Back in junior high, I was <strong>the best in my area</strong>.<br />
+    Every move had energy. Every step had confidence. I owned the floor before I ever owned a GitHub repo.</p>
+
+    <p>Weekends? Skating was life.<br />
+    Heelys in school, roller skates on the streets.<br />
+    The thrill of gliding, the freedom of motion — I lived for it.<br />
+    I used to do a lot, because life was about expression, not limits.</p>
+
+    <p>Now, people ask: “What happened to all that?”<br />
+    Truth is, nothing happened.<br />
+    Those worlds live in me. They taught me rhythm, creativity, and flow — the same energy I bring to every line of code today.</p>
+
+    <p>So, if you think you know me because you’ve seen my code?<br />
+    Think again.<br />
+    There’s always another side.</p>
+  `,
+  },
+  {
+    id: 4,
+    title: "My Silent Hours",
+    date: "January 7, 2025",
+    image: "../src/assets/blogs/silent-hours.jpg",
     tags: ["Life", "Mindset"],
     excerpt: "Midnight. The world sleeps. My best work wakes up.",
     content: `
@@ -92,10 +133,10 @@ const blogs = [
   `,
   },
   {
-    id: 4,
+    id: 5,
     title: "The Art of Debugging",
     date: "January 12, 2025",
-    image: "/assets/blogs/debugging-art.jpg",
+    image: "../src/assets/blogs/debugging-art.jpg",
     tags: ["Tech", "Mindset"],
     excerpt:
       "Debugging isn’t just a task. It’s an art form that separates coders from creators.",
@@ -119,10 +160,10 @@ const blogs = [
   `,
   },
   {
-    id: 5,
+    id: 6,
     title: "The Merrylow Journey",
     date: "January 20, 2025",
-    image: "/assets/blogs/merrylow.jpg",
+    image: "../src/assets/blogs/merrylow.jpg",
     tags: ["Startup", "Backend"],
     excerpt: "How I built Merrylow from scratch with a killer team.",
     content: `
@@ -150,10 +191,10 @@ const blogs = [
   `,
   },
   {
-    id: 6,
+    id: 7,
     title: "Security is Not Optional",
     date: "February 9, 2025",
-    image: "/assets/blogs/security.jpg",
+    image: "../src/assets/blogs/security.jpg",
     tags: ["Cybersecurity", "Tech"],
     excerpt:
       "Security isn’t a feature. It’s the foundation. And ignoring it? That’s the fastest way to fail.",
@@ -179,10 +220,10 @@ const blogs = [
   `,
   },
   {
-    id: 7,
+    id: 8,
     title: "The Typing Grind",
     date: "February 18, 2025",
-    image: "/assets/blogs/typing.jpg",
+    image: "../src/assets/blogs/typing.jpg",
     tags: ["Skills", "Productivity"],
     excerpt: "From 90 WPM to 120 WPM: Why I trained like a maniac.",
     content: `
@@ -208,10 +249,10 @@ const blogs = [
   `,
   },
   {
-    id: 8,
+    id: 9,
     title: "The Love Of My Life?",
     date: "March 6, 2025",
-    image: "/assets/blogs/love-life.jpg",
+    image: "../src/assets/blogs/love-life.jpeg",
     tags: ["Life", "Personal"],
     excerpt:
       "People ask what I love most. Here’s the truth — and it’s not what you think.",
@@ -240,10 +281,10 @@ const blogs = [
   `,
   },
   {
-    id: 9,
+    id: 10,
     title: "Why I Code at 2 AM",
     date: "March 10, 2025",
-    image: "/assets/blogs/code-at-2am.jpg",
+    image: "../src/assets/blogs/code-at-2am.jpg",
     tags: ["Life", "Mindset"],
     excerpt:
       "People think it's unhealthy. For me, it's therapy. Here’s why 2 AM is when I’m most alive.",
@@ -268,10 +309,10 @@ const blogs = [
   `,
   },
   {
-    id: 10,
+    id: 11,
     title: "The Developer’s Paradox",
-    date: "April 15, 2025",
-    image: "/assets/blogs/dev-paradox.jpg",
+    date: "April 1, 2025",
+    image: "../src/assets/blogs/dev-paradox.jpg",
     tags: ["Tech", "Philosophy"],
     excerpt:
       "We build for simplicity but thrive in complexity. That’s the paradox of our craft.",
@@ -296,10 +337,10 @@ const blogs = [
   `,
   },
   {
-    id: 11,
+    id: 12,
     title: "How I Think About AI",
-    date: "March 1, 2025",
-    image: "/assets/blogs/ai-mindset.jpg",
+    date: "May 15, 2025",
+    image: "../src/assets/blogs/ai-mindset.jpeg",
     tags: ["AI", "Future"],
     excerpt:
       "AI isn’t magic. It’s math with ambition. Here’s my take on its role in our future.",
@@ -325,10 +366,10 @@ const blogs = [
   `,
   },
   {
-    id: 12,
+    id: 13,
     title: "Learning Never Stops",
-    date: "March 25, 2025",
-    image: "/assets/blogs/learning.jpg",
+    date: "June 25, 2025",
+    image: "../src/assets/blogs/learning.jpg",
     tags: ["Mindset", "Growth"],
     excerpt: "Why I never stop learning and you shouldn’t either.",
     content: `
@@ -354,10 +395,10 @@ const blogs = [
   `,
   },
   {
-    id: 13,
+    id: 14,
     title: "Why I Love FastAPI",
-    date: "February 8, 2025",
-    image: "/assets/blogs/fastapi-love.jpg",
+    date: "July 10, 2025",
+    image: "../src/assets/blogs/fastapi-love.jpg",
     tags: ["Tech", "Backend"],
     excerpt:
       "Fast. Modern. Elegant. Here’s why FastAPI has my developer heart.",
@@ -377,6 +418,63 @@ const blogs = [
 
     <p>In a world obsessed with complexity, FastAPI reminds me that power can be simple.<br />
     And that’s why it’s more than just a tool — it’s a philosophy I vibe with.</p>
+  `,
+  },
+  {
+    id: 15,
+    title: "Confessions of a Developer",
+    date: "July 17, 2025",
+    image: "../src/assets/blogs/confessions.png",
+    tags: ["Humor", "Life"],
+    excerpt:
+      "Bugs, coffee, and questionable life choices — here’s my honest truth.",
+    content: `
+   <p>We developers like to act like we’ve got everything under control.<br />
+    But the truth? We’re a walking collection of bugs and coping mechanisms.<br />
+    Here are my <strong>10 real confessions</strong>:</p>
+
+    <p><strong>Confession #1:</strong><br />
+    I’ve Googled “How to center a div” more times than I’ve Googled my own name.<br />
+    And yes, I still forget sometimes.</p>
+
+    <p><strong>Confession #2:</strong><br />
+    I drink coffee for “focus”… but really, it’s just part of the aesthetic.<br />
+    Hacker movie vibes, you know?</p>
+
+    <p><strong>Confession #3:</strong><br />
+    I’ve broken production more than once and blamed it on “the API”.<br />
+    (Sorry, API.)</p>
+
+    <p><strong>Confession #4:</strong><br />
+    I once spent six hours debugging a bug that didn’t exist.<br />
+    The real issue? I forgot to save the file.</p>
+
+    <p><strong>Confession #5:</strong><br />
+    Sometimes I write <em>// TODO</em> in my code just to feel organized.<br />
+    Do I ever come back to it? Nope.</p>
+
+    <p><strong>Confession #6:</strong><br />
+    I’ve used console.log as a debugging tool in a million-dollar codebase.<br />
+    And I’d do it again.</p>
+
+    <p><strong>Confession #7:</strong><br />
+    I’ve deployed something without testing because “it should work”.<br />
+    Guess what? It didn’t.</p>
+
+    <p><strong>Confession #8:</strong><br />
+    I once fixed a bug by accident… and pushed it like I knew what I was doing.</p>
+
+    <p><strong>Confession #9:</strong><br />
+    I still copy-paste from Stack Overflow like it’s a sacred ritual.<br />
+    The real MVP? Ctrl + C and Ctrl + V.</p>
+
+    <p><strong>Confession #10:</strong><br />
+    Sometimes I rename variables from <em>x</em> to <em>data</em> and call it “refactoring”.<br />
+    Don’t judge me.</p>
+
+    <p>So yeah, these are my confessions.<br />
+    If you’re a developer and you didn’t relate to at least three of these…<br />
+    you’re lying.</p>
   `,
   },
 ];
