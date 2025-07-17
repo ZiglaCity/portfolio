@@ -3,7 +3,7 @@ const blogs = [
     id: 1,
     title: "The Real Me",
     date: "January 1, 2025",
-    image: new URL("../assets/blogs/real-me.jpg", import.meta.url).href,
+    image: new URL("../assets/blogs/real-me.png", import.meta.url).href,
     tags: ["Life", "Personal"],
     excerpt:
       "Who is Zigla beyond the code? Not everyone gets to find out—but if you're here, you're close.",
@@ -476,6 +476,43 @@ const blogs = [
     If you’re a developer and you didn’t relate to at least three of these…<br />
     you’re lying.</p>
   `,
+  },
+  {
+    id: 15,
+    title: "Why I'm SOLO",
+    date: "July 17, 2025",
+    image: new URL("../assets/blogs/solo.jpg", import.meta.url).href,
+    tags: ["Life", "Mindset", "Hustle"],
+    excerpt:
+      "Some call it lonely. I call it alignment. This is why I’m riding solo—and why it feels like peace.",
+    content: `
+      <p>I stumbled on this track called <em>"I’m SOLO"</em>, and let me tell you—it’s not just a song; 
+      it’s an anthem for anyone grinding silently, questioning the norms, and chasing a vision bigger than themselves.</p>
+
+      <p>
+      The lyrics hit home:  
+      <em>"They try to tell me get a job, and pick a realistic goal  
+      I would rather die young than live for anybody else."</em>
+        
+      That line? That’s everything. Because I’ve been there—the constant pressure to "fit in," to follow a predictable script, when deep down you know you’re built for something different.
+      </p>
+
+      <p>
+      Ever since I started building, I’ve been mostly by myself. Not because I hate people. Not because I can’t vibe. But because purpose demands solitude. It’s where the real work happens.  
+      Like the hook says:  
+      <em>"I’m SOLO... Secrets only live outside  
+      I’m DOLO... It’s not a lot of people that I like I know."</em>
+      </p>
+
+      <p>
+      And honestly, I relate. This path can be isolating. I’ve lost relationships. Missed out on weekends. Turned down parties. But every sacrifice is a brick in the foundation of the future I’m building.  
+      Would I change it? No. Because the truth is, I find peace in the work. It’s not punishment—it’s passion.
+      </p>
+
+      <p>
+      So if you’re out there feeling the same—different, distant, driven—remember this: You’re not crazy for wanting more. You’re just SOLO. And maybe that’s exactly what you need to win.
+      </p>
+    `,
   },
 ];
 
