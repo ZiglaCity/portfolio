@@ -3,7 +3,7 @@ const blogs = [
     id: 1,
     title: "The Real Me",
     date: "January 1, 2025",
-    image: "../src/assets/blogs/real-me.png",
+    image: "./src/assets/blogs/real-me.png",
     tags: ["Life", "Personal"],
     excerpt:
       "Who is Zigla beyond the code? Not everyone gets to find out—but if you're here, you're close.",
@@ -37,7 +37,7 @@ const blogs = [
     id: 2,
     title: "The Big Dream",
     date: "January 2, 2025",
-    image: "../src/assets/blogs/big-dream.png",
+    image: "./src/assets/blogs/big-dream.png",
     tags: ["Vision", "Future"],
     excerpt:
       "Dream big or stay stuck. Here’s what drives me and where I’m headed.",
@@ -70,7 +70,7 @@ const blogs = [
     id: 3,
     title: "My Other Side",
     date: "January 5, 2025",
-    image: "../src/assets/blogs/my-other-side.jpg",
+    image: "./src/assets/blogs/my-other-side.jpg",
     tags: ["Life", "Passion"],
     excerpt:
       "Before the code, there was rhythm. There was a ball. There was a stage.",
@@ -111,7 +111,7 @@ const blogs = [
     id: 4,
     title: "My Silent Hours",
     date: "January 7, 2025",
-    image: "../src/assets/blogs/silent-hours.jpg",
+    image: "./src/assets/blogs/silent-hours.jpg",
     tags: ["Life", "Mindset"],
     excerpt: "Midnight. The world sleeps. My best work wakes up.",
     content: `
@@ -136,7 +136,7 @@ const blogs = [
     id: 5,
     title: "The Art of Debugging",
     date: "January 12, 2025",
-    image: "../src/assets/blogs/debugging-art.jpg",
+    image: "./src/assets/blogs/debugging-art.jpg",
     tags: ["Tech", "Mindset"],
     excerpt:
       "Debugging isn’t just a task. It’s an art form that separates coders from creators.",
@@ -163,7 +163,7 @@ const blogs = [
     id: 6,
     title: "The Merrylow Journey",
     date: "January 20, 2025",
-    image: "../src/assets/blogs/merrylow.jpg",
+    image: "./src/assets/blogs/merrylow.jpg",
     tags: ["Startup", "Backend"],
     excerpt: "How I built Merrylow from scratch with a killer team.",
     content: `
@@ -194,7 +194,7 @@ const blogs = [
     id: 7,
     title: "Security is Not Optional",
     date: "February 9, 2025",
-    image: "../src/assets/blogs/security.jpg",
+    image: "./src/assets/blogs/security.jpg",
     tags: ["Cybersecurity", "Tech"],
     excerpt:
       "Security isn’t a feature. It’s the foundation. And ignoring it? That’s the fastest way to fail.",
@@ -223,7 +223,7 @@ const blogs = [
     id: 8,
     title: "The Typing Grind",
     date: "February 18, 2025",
-    image: "../src/assets/blogs/typing.jpg",
+    image: "./src/assets/blogs/typing.jpg",
     tags: ["Skills", "Productivity"],
     excerpt: "From 90 WPM to 120 WPM: Why I trained like a maniac.",
     content: `
@@ -252,7 +252,7 @@ const blogs = [
     id: 9,
     title: "The Love Of My Life?",
     date: "March 6, 2025",
-    image: "../src/assets/blogs/love-life.jpeg",
+    image: "./src/assets/blogs/love-life.jpeg",
     tags: ["Life", "Personal"],
     excerpt:
       "People ask what I love most. Here’s the truth — and it’s not what you think.",
@@ -284,7 +284,7 @@ const blogs = [
     id: 10,
     title: "Why I Code at 2 AM",
     date: "March 10, 2025",
-    image: "../src/assets/blogs/code-at-2am.jpg",
+    image: "./src/assets/blogs/code-at-2am.jpg",
     tags: ["Life", "Mindset"],
     excerpt:
       "People think it's unhealthy. For me, it's therapy. Here’s why 2 AM is when I’m most alive.",
@@ -312,7 +312,7 @@ const blogs = [
     id: 11,
     title: "The Developer’s Paradox",
     date: "April 1, 2025",
-    image: "../src/assets/blogs/dev-paradox.jpg",
+    image: "./src/assets/blogs/dev-paradox.jpg",
     tags: ["Tech", "Philosophy"],
     excerpt:
       "We build for simplicity but thrive in complexity. That’s the paradox of our craft.",
@@ -340,7 +340,7 @@ const blogs = [
     id: 12,
     title: "How I Think About AI",
     date: "May 15, 2025",
-    image: "../src/assets/blogs/ai-mindset.jpeg",
+    image: "./src/assets/blogs/ai-mindset.jpeg",
     tags: ["AI", "Future"],
     excerpt:
       "AI isn’t magic. It’s math with ambition. Here’s my take on its role in our future.",
@@ -369,7 +369,7 @@ const blogs = [
     id: 13,
     title: "Learning Never Stops",
     date: "June 25, 2025",
-    image: "../src/assets/blogs/learning.jpg",
+    image: "./src/assets/blogs/learning.jpg",
     tags: ["Mindset", "Growth"],
     excerpt: "Why I never stop learning and you shouldn’t either.",
     content: `
@@ -398,7 +398,7 @@ const blogs = [
     id: 14,
     title: "Why I Love FastAPI",
     date: "July 10, 2025",
-    image: "../src/assets/blogs/fastapi-love.jpg",
+    image: "./src/assets/blogs/fastapi-love.jpg",
     tags: ["Tech", "Backend"],
     excerpt:
       "Fast. Modern. Elegant. Here’s why FastAPI has my developer heart.",
@@ -424,7 +424,7 @@ const blogs = [
     id: 15,
     title: "Confessions of a Developer",
     date: "July 17, 2025",
-    image: "../src/assets/blogs/confessions.png",
+    image: "./src/assets/blogs/confessions.png",
     tags: ["Humor", "Life"],
     excerpt:
       "Bugs, coffee, and questionable life choices — here’s my honest truth.",

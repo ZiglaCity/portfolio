@@ -5,10 +5,12 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   // will work on themes later...
   
+  const base = "/portfolio/";
+
   const navLinks = [
-    { name: "Home", href: "/" },
-    { name: "Blog", href: "/blog" },
-    { name: "Contact", href: "/contact" },
+    { name: "Home", href: `${base}#/` },
+    { name: "Blog", href: `${base}#/blog` },
+    { name: "Contact", href: `${base}#/contact` },
   ];
 
   return (
@@ -39,7 +41,7 @@ export default function Navbar() {
             </motion.a>
           ))}
           <a
-            href="/resume.pdf"
+            href={`${base}resume.pdf`}
             className="text-lg font-medium hover:text-purple-400"
             target="_blank"
             rel="noopener noreferrer"

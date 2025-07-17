@@ -2,7 +2,7 @@ const projects = [
   {
     title: "SafestCode",
     description: "AI-powered secure code review and debugging tool.",
-    image: "../src/assets/projects/safestcode.png",
+    image: "./src/assets/projects/safestcode.png",
     stack: ["React", "Tailwind", "Express", "FastAPI", "AI"],
     demoLink: "#",
     githubLink: "#",
@@ -10,7 +10,7 @@ const projects = [
   {
     title: "ProxyPhish",
     description: "Phishing detection system with advanced AI algorithms.",
-    image: "../src/assets/projects/proxyphish.png",
+    image: "./src/assets/projects/proxyphish.png",
     stack: ["React", "Tailwind", "Node.js", "Python"],
     demoLink: "#",
     githubLink: "#",
@@ -19,7 +19,7 @@ const projects = [
     title: "ZTube",
     description:
       "Modern desktop app for downloading YouTube videos, inspired by YouTube.",
-    image: "../src/assets/projects/ztube.png",
+    image: "./src/assets/projects/ztube.png",
     stack: ["Python", "Tkinter", "API"],
     demoLink: "#",
     githubLink: "#",
@@ -28,7 +28,7 @@ const projects = [
     title: "CropDoc",
     description:
       "Backend System for an AI-powered crop disease detection app for farmers.",
-    image: "../src/assets/projects/cropdoc.png",
+    image: "./src/assets/projects/cropdoc.png",
     stack: ["Python", "FastAPI", "Supabase"],
     demoLink: "#",
     githubLink: "#",
@@ -36,7 +36,7 @@ const projects = [
   {
     title: "ScreenRecorder",
     description: "Lightweight screen recording tool with quick share options.",
-    image: "../src/assets/projects/zscreen.png",
+    image: "./src/assets/projects/zscreen.png",
     stack: ["Python", "Thinter"],
     demoLink: "#",
     githubLink: "#",
@@ -44,7 +44,7 @@ const projects = [
   {
     title: "LMS",
     description: "Full-featured Library Management System for Universities.",
-    image: "../src/assets/projects/lms.png",
+    image: "./src/assets/projects/lms.png",
     stack: ["Python", "MySQL", "Tkinter"],
     demoLink: "#",
     githubLink: "#",
