@@ -2,7 +2,7 @@ const blogs = [
   {
     id: 1,
     title: "The Real Me",
-    date: "July 15, 2025",
+    date: "January 1, 2025",
     image: "/assets/blogs/real-me.jpg",
     tags: ["Life", "Personal"],
     excerpt:
@@ -36,7 +36,7 @@ const blogs = [
   {
     id: 2,
     title: "The Big Dream",
-    date: "July 17, 2025",
+    date: "January 2, 2025",
     image: "/assets/blogs/big-dream.jpg",
     tags: ["Vision", "Future"],
     excerpt:
@@ -69,7 +69,7 @@ const blogs = [
   {
     id: 3,
     title: "My Silent Hours",
-    date: "July 25, 2025",
+    date: "January 5, 2025",
     image: "/assets/blogs/silent-hours.jpg",
     tags: ["Life", "Mindset"],
     excerpt: "Midnight. The world sleeps. My best work wakes up.",
@@ -94,7 +94,7 @@ const blogs = [
   {
     id: 4,
     title: "The Art of Debugging",
-    date: "July 22, 2025",
+    date: "January 12, 2025",
     image: "/assets/blogs/debugging-art.jpg",
     tags: ["Tech", "Mindset"],
     excerpt:
@@ -118,37 +118,41 @@ const blogs = [
     It’s me versus the unknown — and I love the fight.</p>
   `,
   },
-
   {
     id: 5,
-    title: "Why I Love FastAPI",
-    date: "July 20, 2025",
-    image: "/assets/blogs/fastapi-love.jpg",
-    tags: ["Tech", "Backend"],
-    excerpt:
-      "Fast. Modern. Elegant. Here’s why FastAPI has my developer heart.",
+    title: "The Merrylow Journey",
+    date: "January 20, 2025",
+    image: "/assets/blogs/merrylow.jpg",
+    tags: ["Startup", "Backend"],
+    excerpt: "How I built Merrylow from scratch with a killer team.",
     content: `
-    <p>When you’ve written APIs for a while, you start craving one thing: <strong>speed without pain</strong>.<br />
-    FastAPI delivers that — and more.</p>
+    <p>Merrylow wasn’t just a project.<br />
+    It was a battlefield.<br />
+    And I loved every second of the fight.</p>
 
-    <p>I’ve used frameworks that made me feel like I was dragging an anchor uphill.<br />
-    With FastAPI, everything flows.<br />
-    Type hints. Auto docs. Async support out of the box. It feels like Python — but leveled up.</p>
+    <p>From brainstorming on rough notes to deploying on a live server,<br />
+    every step tested our skills, our patience, and our drive.</p>
 
-    <p>The beauty of FastAPI isn’t just speed; it’s elegance.<br />
-    You write less, achieve more, and the code looks clean enough to frame on your wall.</p>
+    <p>I took on backend and DevOps.<br />
+    Node.js, Express, PostgreSQL, Prisma — all wired together with care.<br />
+    Secure APIs, clean architecture, automation — the works.</p>
 
-    <p>For someone who loves building scalable systems and AI-driven backends, this framework is a cheat code.<br />
-    It just gets out of your way and lets you <em>create</em>.</p>
+    <p>Then came deployment.<br />
+    VPS setup. NGINX configs. GitHub Actions for CI/CD.<br />
+    It wasn’t glamorous, but it was real engineering — and it worked.</p>
 
-    <p>In a world obsessed with complexity, FastAPI reminds me that power can be simple.<br />
-    And that’s why it’s more than just a tool — it’s a philosophy I vibe with.</p>
+    <p>Merrylow taught me what it takes to build from zero.<br />
+    It’s not just code.<br />
+    It’s persistence. It’s strategy. It’s believing in the vision when nothing exists yet.</p>
+
+    <p>This isn’t the end of the story.<br />
+    Merrylow is only the beginning.</p>
   `,
   },
   {
     id: 6,
     title: "Security is Not Optional",
-    date: "July 28, 2025",
+    date: "February 9, 2025",
     image: "/assets/blogs/security.jpg",
     tags: ["Cybersecurity", "Tech"],
     excerpt:
@@ -176,37 +180,37 @@ const blogs = [
   },
   {
     id: 7,
-    title: "How I Think About AI",
-    date: "August 1, 2025",
-    image: "/assets/blogs/ai-mindset.jpg",
-    tags: ["AI", "Future"],
-    excerpt:
-      "AI isn’t magic. It’s math with ambition. Here’s my take on its role in our future.",
+    title: "The Typing Grind",
+    date: "February 18, 2025",
+    image: "/assets/blogs/typing.jpg",
+    tags: ["Skills", "Productivity"],
+    excerpt: "From 90 WPM to 120 WPM: Why I trained like a maniac.",
     content: `
-    <p>People talk about AI like it’s some mythical force.<br />
-    Let’s be real — it’s not magic.<br />
-    It’s code. It’s math. But with ambition bigger than any human mind.</p>
+    <p>Typing is underrated.<br />
+    Everyone thinks it’s just about pressing keys faster.<br />
+    For me, it’s about <strong>speed, flow, and dominance</strong>.</p>
 
-    <p>The question isn’t <em>what can AI do?</em><br />
-    It’s <em>how far will we let it go?</em></p>
+    <p>When I hit 90 WPM, I felt good.<br />
+    But good isn’t enough for me.<br />
+    I wanted elite. I wanted to break 120 WPM — and I did.</p>
 
-    <p>I think of AI as an amplifier.<br />
-    It magnifies human potential — and human flaws.<br />
-    It doesn’t replace us. It reflects us.</p>
+    <p>Why? Because speed matters.<br />
+    Faster typing means faster thinking.<br />
+    It means fewer bottlenecks between your brain and the screen.</p>
 
-    <p>For me, AI is a tool. A partner. A mirror.<br />
-    It’s not about fearing the takeover. It’s about steering the ship.<br />
-    Because if we don’t, someone — or something — else will.</p>
+    <p>I trained like an athlete.<br />
+    Hours on Monkeytype. Finger drills. Consistency.<br />
+    And when I hit my goal, it wasn’t just numbers — it was a mindset shift.</p>
 
-    <p>The future isn’t man versus machine.<br />
-    It’s man plus machine.<br />
-    And I’m here to build that alliance, not watch it happen.</p>
+    <p>The Typing Grind taught me something bigger:<br />
+    Small habits, done daily, compound into mastery.<br />
+    And mastery? That’s addictive.</p>
   `,
   },
   {
     id: 8,
     title: "The Love Of My Life?",
-    date: "August 5, 2025",
+    date: "March 6, 2025",
     image: "/assets/blogs/love-life.jpg",
     tags: ["Life", "Personal"],
     excerpt:
@@ -238,7 +242,7 @@ const blogs = [
   {
     id: 9,
     title: "Why I Code at 2 AM",
-    date: "August 10, 2025",
+    date: "March 10, 2025",
     image: "/assets/blogs/code-at-2am.jpg",
     tags: ["Life", "Mindset"],
     excerpt:
@@ -266,7 +270,7 @@ const blogs = [
   {
     id: 10,
     title: "The Developer’s Paradox",
-    date: "August 15, 2025",
+    date: "April 15, 2025",
     image: "/assets/blogs/dev-paradox.jpg",
     tags: ["Tech", "Philosophy"],
     excerpt:
@@ -293,37 +297,37 @@ const blogs = [
   },
   {
     id: 11,
-    title: "The Typing Grind",
-    date: "June 28, 2025",
-    image: "/assets/blogs/typing.jpg",
-    tags: ["Skills", "Productivity"],
-    excerpt: "From 90 WPM to 120 WPM: Why I trained like a maniac.",
+    title: "How I Think About AI",
+    date: "March 1, 2025",
+    image: "/assets/blogs/ai-mindset.jpg",
+    tags: ["AI", "Future"],
+    excerpt:
+      "AI isn’t magic. It’s math with ambition. Here’s my take on its role in our future.",
     content: `
-    <p>Typing is underrated.<br />
-    Everyone thinks it’s just about pressing keys faster.<br />
-    For me, it’s about <strong>speed, flow, and dominance</strong>.</p>
+    <p>People talk about AI like it’s some mythical force.<br />
+    Let’s be real — it’s not magic.<br />
+    It’s code. It’s math. But with ambition bigger than any human mind.</p>
 
-    <p>When I hit 90 WPM, I felt good.<br />
-    But good isn’t enough for me.<br />
-    I wanted elite. I wanted to break 120 WPM — and I did.</p>
+    <p>The question isn’t <em>what can AI do?</em><br />
+    It’s <em>how far will we let it go?</em></p>
 
-    <p>Why? Because speed matters.<br />
-    Faster typing means faster thinking.<br />
-    It means fewer bottlenecks between your brain and the screen.</p>
+    <p>I think of AI as an amplifier.<br />
+    It magnifies human potential — and human flaws.<br />
+    It doesn’t replace us. It reflects us.</p>
 
-    <p>I trained like an athlete.<br />
-    Hours on Monkeytype. Finger drills. Consistency.<br />
-    And when I hit my goal, it wasn’t just numbers — it was a mindset shift.</p>
+    <p>For me, AI is a tool. A partner. A mirror.<br />
+    It’s not about fearing the takeover. It’s about steering the ship.<br />
+    Because if we don’t, someone — or something — else will.</p>
 
-    <p>The Typing Grind taught me something bigger:<br />
-    Small habits, done daily, compound into mastery.<br />
-    And mastery? That’s addictive.</p>
+    <p>The future isn’t man versus machine.<br />
+    It’s man plus machine.<br />
+    And I’m here to build that alliance, not watch it happen.</p>
   `,
   },
   {
     id: 12,
     title: "Learning Never Stops",
-    date: "June 25, 2025",
+    date: "March 25, 2025",
     image: "/assets/blogs/learning.jpg",
     tags: ["Mindset", "Growth"],
     excerpt: "Why I never stop learning and you shouldn’t either.",
@@ -351,33 +355,28 @@ const blogs = [
   },
   {
     id: 13,
-    title: "The Merrylow Journey",
-    date: "June 22, 2025",
-    image: "/assets/blogs/merrylow.jpg",
-    tags: ["Startup", "Backend"],
-    excerpt: "How I built Merrylow from scratch with a killer team.",
+    title: "Why I Love FastAPI",
+    date: "February 8, 2025",
+    image: "/assets/blogs/fastapi-love.jpg",
+    tags: ["Tech", "Backend"],
+    excerpt:
+      "Fast. Modern. Elegant. Here’s why FastAPI has my developer heart.",
     content: `
-    <p>Merrylow wasn’t just a project.<br />
-    It was a battlefield.<br />
-    And I loved every second of the fight.</p>
+    <p>When you’ve written APIs for a while, you start craving one thing: <strong>speed without pain</strong>.<br />
+    FastAPI delivers that — and more.</p>
 
-    <p>From brainstorming on rough notes to deploying on a live server,<br />
-    every step tested our skills, our patience, and our drive.</p>
+    <p>I’ve used frameworks that made me feel like I was dragging an anchor uphill.<br />
+    With FastAPI, everything flows.<br />
+    Type hints. Auto docs. Async support out of the box. It feels like Python — but leveled up.</p>
 
-    <p>I took on backend and DevOps.<br />
-    Node.js, Express, PostgreSQL, Prisma — all wired together with care.<br />
-    Secure APIs, clean architecture, automation — the works.</p>
+    <p>The beauty of FastAPI isn’t just speed; it’s elegance.<br />
+    You write less, achieve more, and the code looks clean enough to frame on your wall.</p>
 
-    <p>Then came deployment.<br />
-    VPS setup. NGINX configs. GitHub Actions for CI/CD.<br />
-    It wasn’t glamorous, but it was real engineering — and it worked.</p>
+    <p>For someone who loves building scalable systems and AI-driven backends, this framework is a cheat code.<br />
+    It just gets out of your way and lets you <em>create</em>.</p>
 
-    <p>Merrylow taught me what it takes to build from zero.<br />
-    It’s not just code.<br />
-    It’s persistence. It’s strategy. It’s believing in the vision when nothing exists yet.</p>
-
-    <p>This isn’t the end of the story.<br />
-    Merrylow is only the beginning.</p>
+    <p>In a world obsessed with complexity, FastAPI reminds me that power can be simple.<br />
+    And that’s why it’s more than just a tool — it’s a philosophy I vibe with.</p>
   `,
   },
 ];
