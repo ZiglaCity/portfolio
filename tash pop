@@ -1,0 +1,304 @@
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mindex a547bf3..d823d0d 100644[m
+[1m--- a/.gitignore[m
+[1m+++ b/.gitignore[m
+[36m@@ -22,3 +22,6 @@[m [mdist-ssr[m
+ *.njsproj[m
+ *.sln[m
+ *.sw?[m
+[32m+[m
+[32m+[m
+[32m+[m[32m.env[m
+\ No newline at end of file[m
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 0c589ec..6676fb2 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -4,7 +4,7 @@[m
+     <meta charset="UTF-8" />[m
+     <link rel="icon" type="image/svg+xml" href="/vite.svg" />[m
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />[m
+[31m-    <title>Vite + React</title>[m
+[32m+[m[32m    <title>Portfolio</title>[m
+   </head>[m
+   <body>[m
+     <div id="root"></div>[m
+[1mdiff --git a/package-lock.json b/package-lock.json[m
+[1mindex 194847a..62e793a 100644[m
+[1m--- a/package-lock.json[m
+[1m+++ b/package-lock.json[m
+[36m@@ -13,7 +13,9 @@[m
+         "framer-motion": "^12.23.6",[m
+         "react": "^19.1.0",[m
+         "react-dom": "^19.1.0",[m
+[31m-        "react-icons": "^5.5.0"[m
+[32m+[m[32m        "react-icons": "^5.5.0",[m
+[32m+[m[32m        "react-router-dom": "^6.22.3",[m
+[32m+[m[32m        "react-type-animation": "^3.2.0"[m
+       },[m
+       "devDependencies": {[m
+         "@eslint/js": "^9.30.1",[m
+[36m@@ -1036,6 +1038,15 @@[m
+         "url": "https://opencollective.com/parcel"[m
+       }[m
+     },[m
+[32m+[m[32m    "node_modules/@remix-run/router": {[m
+[32m+[m[32m      "version": "1.15.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@remix-run/router/-/router-1.15.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-Oy8rmScVrVxWZVOpEF57ovlnhpZ8CCPlnIIumVcV9nFdiSIrus99+Lw78ekXyGvVDlIsFJbSfmSovJUhCWYV3w==",[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=14.0.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+     "node_modules/@rolldown/pluginutils": {[m
+       "version": "1.0.0-beta.11",[m
+       "resolved": "https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.0-beta.11.tgz",[m
+[36m@@ -2833,6 +2844,13 @@[m
+         "jiti": "lib/jiti-cli.mjs"[m
+       }[m
+     },[m
+[32m+[m[32m    "node_modules/js-tokens": {[m
+[32m+[m[32m      "version": "4.0.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "peer": true[m
+[32m+[m[32m    },[m
+     "node_modules/js-yaml": {[m
+       "version": "4.1.0",[m
+       "resolved": "https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.0.tgz",[m
+[36m@@ -3151,6 +3169,19 @@[m
+       "dev": true,[m
+       "license": "MIT"[m
+     },[m
+[32m+[m[32m    "node_modules/loose-envify": {[m
+[32m+[m[32m      "version": "1.4.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "peer": true,[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "js-tokens": "^3.0.0 || ^4.0.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "bin": {[m
+[32m+[m[32m        "loose-envify": "cli.js"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+     "node_modules/magic-string": {[m
+       "version": "0.30.17",[m
+       "resolved": "https://registry.npmjs.org/magic-string/-/magic-string-0.30.17.tgz",[m
+[36m@@ -3317,6 +3348,16 @@[m
+         "node": ">=0.10.0"[m
+       }[m
+     },[m
+[32m+[m[32m    "node_modules/object-assign": {[m
+[32m+[m[32m      "version": "4.1.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==",[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "peer": true,[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=0.10.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+     "node_modules/optionator": {[m
+       "version": "0.9.4",[m
+       "resolved": "https://registry.npmjs.org/optionator/-/optionator-0.9.4.tgz",[m
+[36m@@ -3463,6 +3504,18 @@[m
+         "node": ">= 0.8.0"[m
+       }[m
+     },[m
+[32m+[m[32m    "node_modules/prop-types": {[m
+[32m+[m[32m      "version": "15.8.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==",[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "peer": true,[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "loose-envify": "^1.4.0",[m
+[32m+[m[32m        "object-assign": "^4.1.1",[m
+[32m+[m[32m        "react-is": "^16.13.1"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+     "node_modules/punycode": {[m
+       "version": "2.3.1",[m
+       "resolved": "https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz",[m
+[36m@@ -3503,6 +3556,56 @@[m
+         "react": "*"[m
+       }[m
+     },[m
+[32m+[m[32m    "node_modules/react-is": {[m
+[32m+[m[32m      "version": "16.13.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==",[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "peer": true[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/react-router": {[m
+[32m+[m[32m      "version": "6.22.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/react-router/-/react-router-6.22.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-dr2eb3Mj5zK2YISHK++foM9w4eBnO23eKnZEDs7c880P6oKbrjz/Svg9+nxqtHQK+oMW4OtjZca0RqPglXxguQ==",[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@remix-run/router": "1.15.3"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=14.0.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "peerDependencies": {[m
+[32m+[m[32m        "react": ">=16.8"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/react-router-dom": {[m
+[32m+[m[32m      "version": "6.22.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.22.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-7ZILI7HjcE+p31oQvwbokjk6OA/bnFxrhJ19n82Ex9Ph8fNAq+Hm/7KchpMGlTgWhUxRHMMCut+vEtNpWpowKw==",[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@remix-run/router": "1.15.3",[m
+[32m+[m[32m        "react-router": "6.22.3"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=14.0.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "peerDependencies": {[m
+[32m+[m[32m        "react": ">=16.8",[m
+[32m+[m[32m        "react-dom": ">=16.8"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/react-type-animation": {[m
+[32m+[m[32m      "version": "3.2.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/react-type-animation/-/react-type-animation-3.2.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-WXTe0i3rRNKjmggPvT5ntye1QBt0ATGbijeW6V3cQe2W0jaMABXXlPPEdtofnS9tM7wSRHchEvI9SUw+0kUohw==",[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "peerDependencies": {[m
+[32m+[m[32m        "prop-types": "^15.5.4",[m
+[32m+[m[32m        "react": ">= 15.0.0",[m
+[32m+[m[32m        "react-dom": ">= 15.0.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+     "node_modules/resolve-from": {[m
+       "version": "4.0.0",[m
+       "resolved": "https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz",[m
+[1mdiff --git a/package.json b/package.json[m
+[1mindex 41ead21..efa98b6 100644[m
+[1m--- a/package.json[m
+[1m+++ b/package.json[m
+[36m@@ -15,7 +15,9 @@[m
+     "framer-motion": "^12.23.6",[m
+     "react": "^19.1.0",[m
+     "react-dom": "^19.1.0",[m
+[31m-    "react-icons": "^5.5.0"[m
+[32m+[m[32m    "react-icons": "^5.5.0",[m
+[32m+[m[32m    "react-router-dom": "^6.22.3",[m
+[32m+[m[32m    "react-type-animation": "^3.2.0"[m
+   },[m
+   "devDependencies": {[m
+     "@eslint/js": "^9.30.1",[m
+[1mdiff --git a/src/App.jsx b/src/App.jsx[m
+[1mindex 0657021..8d169b1 100644[m
+[1m--- a/src/App.jsx[m
+[1m+++ b/src/App.jsx[m
+[36m@@ -1,13 +1,50 @@[m
+[31m-import { useState } from 'react'[m
+[31m-import './index.css'[m
+[32m+[m[32mimport { useState, useEffect } from 'react';[m
+[32m+[m[32mimport { Routes, Route } from 'react-router-dom';[m
+[32m+[m[32mimport Navbar from './components/Navbar';[m
+[32m+[m[32mimport Hero from './components/Hero';[m
+[32m+[m[32mimport Projects from './components/Projects';[m
+[32m+[m[32mimport Skills from './components/Skills';[m
+[32m+[m[32mimport Timeline from './components/Timeline';[m
+[32m+[m[32mimport Blog from './components/Blog';[m
+[32m+[m[32mimport Post from './components/Post';[m
+[32m+[m[32mimport Contact from './components/Contact';[m
+[32m+[m[32mimport Footer from './components/Footer';[m
+ [m
+ function App() {[m
+[32m+[m[32m  const [darkMode, setDarkMode] = useState(true);[m
+[32m+[m
+[32m+[m[32m  useEffect(() => {[m
+[32m+[m[32m    const storedMode = localStorage.getItem('darkMode');[m
+[32m+[m[32m    setDarkMode(storedMode === 'true');[m
+[32m+[m[32m  }, []);[m
+[32m+[m
+[32m+[m[32m  useEffect(() => {[m
+[32m+[m[32m    document.documentElement.classList.toggle('dark', darkMode);[m
+[32m+[m[32m    localStorage.setItem('darkMode', darkMode);[m
+[32m+[m[32m  }, [darkMode]);[m
+[32m+[m
+ [m
+   return ([m
+[31m-    <>[m
+[31m-     <p className='text-green-500 text-center'>Hello there, it's My Porfolio time!</p>[m
+[31m-    </>[m
+[31m-  )[m
+[32m+[m[32m    <div className="min-h-screen flex flex-col bg-white text-black dark:bg-zinc-900 dark:text-white">[m
+[32m+[m[32m      <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />[m
+[32m+[m[32m      <main className="flex-grow">[m
+[32m+[m[32m        <Routes>[m
+[32m+[m[32m          <Route path="/" element={[m
+[32m+[m[32m            <>[m
+[32m+[m[32m              <Hero />[m
+[32m+[m[32m              <Projects />[m
+[32m+[m[32m              <Skills />[m
+[32m+[m[32m              <Timeline />[m
+[32m+[m[32m            </>[m
+[32m+[m[32m          }/>[m
+[32m+[m[32m          <Route path="/blog" element={<Blog />} />[m
+[32m+[m[32m          <Route path="/blog/:slug" element={<Post />} />[m
+[32m+[m[32m          <Route path="/contact" element={<Contact />} />[m
+[32m+[m[32m        </Routes>[m
+[32m+[m[32m      </main>[m
+[32m+[m[32m      <Footer />[m
+[32m+[m[32m    </div>[m
+[32m+[m[32m  );[m
+ }[m
+ [m
+[31m-export default App[m
+[32m+[m[32mexport default App;[m
+[1mdiff --git a/src/assets/me.png b/src/assets/me.png[m
+[1mdeleted file mode 100644[m
+[1mindex 7b7780f..0000000[m
+Binary files a/src/assets/me.png and /dev/null differ
+[1mdiff --git a/src/index.css b/src/index.css[m
+[1mindex 1db92b6..2486ee2 100644[m
+[1m--- a/src/index.css[m
+[1m+++ b/src/index.css[m
+[36m@@ -13,3 +13,7 @@[m
+   80% { transform: translate(2px,-2px); }[m
+   100% { transform: translate(0); }[m
+ }[m
+[32m+[m
+[32m+[m[32mhtml {[m
+[32m+[m[32m  transition: background-color 0.3s, color 0.3s;[m
+[32m+[m[32m}[m
+[1mdiff --git a/src/main.jsx b/src/main.jsx[m
+[1mindex b9a1a6d..18d13f4 100644[m
+[1m--- a/src/main.jsx[m
+[1m+++ b/src/main.jsx[m
+[36m@@ -1,10 +1,14 @@[m
+[31m-import { StrictMode } from 'react'[m
+[31m-import { createRoot } from 'react-dom/client'[m
+[31m-import './index.css'[m
+[31m-import App from './App.jsx'[m
+[32m+[m[32mimport React from 'react';[m
+[32m+[m[32mimport ReactDOM from 'react-dom/client';[m
+[32m+[m[32mimport { BrowserRouter } from 'react-router-dom';[m
+[32m+[m[32mimport './index.css';[m
+[32m+[m[32mimport App from './App';[m
+[32m+[m
+[32m+[m[32mReactDOM.createRoot(document.getElementById('root')).render([m
+[32m+[m[32m  <React.StrictMode>[m
+[32m+[m[32m    <BrowserRouter>[m
+[32m+[m[32m      <App />[m
+[32m+[m[32m    </BrowserRouter>[m
+[32m+[m[32m  </React.StrictMode>[m
+[32m+[m[32m);[m
+ [m
+[31m-createRoot(document.getElementById('root')).render([m
+[31m-  <StrictMode>[m
+[31m-    <App />[m
+[31m-  </StrictMode>,[m
+[31m-)[m

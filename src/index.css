@@ -13,3 +13,7 @@
   80% { transform: translate(2px,-2px); }
   100% { transform: translate(0); }
 }
+
+html {
+  transition: background-color 0.3s, color 0.3s;
+}
