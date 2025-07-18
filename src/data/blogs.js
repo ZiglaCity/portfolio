@@ -514,6 +514,96 @@ const blogs = [
       </p>
     `,
   },
+  {
+    id: 17,
+    title: "The Paradox of Modern Freedom",
+    date: "July 18, 2025",
+    image: new URL("../assets/blogs/modern-freedom.png", import.meta.url).href,
+    tags: ["Life", "Society", "Mindset"],
+    excerpt:
+      "We have the freedom to do anything—but somehow, that’s exactly why so many of us feel lost.",
+    content: `
+      <p>
+      We live in a time where freedom is at its peak. You can work remotely from a beach, start a business from your bedroom, date anyone across the globe, and learn anything online for free. Sounds like paradise, right?
+      </p>
+
+      <p>
+      But here’s the paradox: Unlimited options don’t make us free. They make us anxious.
+      </p>
+
+      <p>
+      Modern life comes with an unspoken pressure: <strong>“If you’re not successful, it’s your fault because you had every opportunity.”</strong> So we scroll through Instagram, comparing our behind-the-scenes to someone else’s highlight reel, thinking, <em>“Why am I not living like that?”</em>
+      </p>
+
+      <p>
+      We’ve replaced simplicity with a constant chase for what’s next. We don’t sit with boredom anymore; we binge, scroll, consume. We’ve mistaken access for meaning, and now we’re paying the price.
+      </p>
+
+      <p>
+      Maybe freedom was never about endless options. Maybe it’s about making a few choices that matter—and shutting the rest out.
+      </p>
+    `,
+  },
+
+  {
+    id: 18,
+    title: "Women in Tech — Breaking Barriers or Building New Ones?",
+    date: "July 18, 2025",
+    image: new URL("../assets/blogs/women-in-tech.webp", import.meta.url).href,
+    tags: ["Tech", "Diversity", "Opinion"],
+    excerpt: "Diversity is trending. But is it progress… or PR?",
+    content: `
+      <p>
+      Tech loves buzzwords: AI, Blockchain, Innovation. And now? <strong>Diversity.</strong>
+      </p>
+
+      <p>
+      Companies plaster “We support women in tech” all over their job posts. Sounds great. But here’s the uncomfortable question: Are they doing it for impact… or for image?
+      </p>
+
+      <p>
+      Don’t get me wrong—progress is real. Women are coding, leading, and building empires in tech like never before. But sometimes it feels like the movement has been hijacked by corporate virtue signaling. Diversity without inclusion is just a checkbox.
+      </p>
+
+      <p>
+      Empowerment should never be about token seats in boardrooms or PR campaigns during Women’s Month. It’s about mentorship, equal pay, real growth opportunities—and not making women feel like they have to “prove” they belong.
+      </p>
+
+      <p>
+      So here’s to the real builders—the women who don’t just want a seat at the table but are building their own tables. Respect where it’s due.
+      </p>
+    `,
+  },
+  {
+    id: 19,
+    title: "Am I Really Me?",
+    date: "July 18, 2025",
+    image: new URL("../assets/blogs/am-i-me.png", import.meta.url).href,
+    tags: ["Life", "Identity", "Mindset"],
+    excerpt:
+      "Online, I’m bold and unstoppable. Offline? Sometimes I don’t even want to say hi. So… which one is real?",
+    content: `
+      <p>
+      Ever feel like you’re two completely different people? Because I do—every single day.
+      </p>
+
+      <p>
+      Online, I’m loud. Funny. The guy dropping memes and one-liners like confetti. The type of dude who makes everyone laugh in the group chat, who seems like he’s got endless energy. But offline? 
+      </p>
+
+      <p>
+      Let’s just say… if social energy was a battery, mine dies faster than an iPhone on 2% playing TikToks. Suddenly, I’m the quiet guy in the corner, overthinking if I should even wave at someone I know. Talking to a girl? Might as well ask me to solve world hunger first.
+      </p>
+
+      <p>
+      So which one is the real me? The truth is… both. We’ve all got layers. Maybe the internet just lets me be the version of me that doesn’t need to fight social anxiety, judgment, or awkward stares. Maybe being “me” isn’t about picking one side. It’s about owning every side.
+      </p>
+
+      <p>
+      Because, real talk: Nobody’s just one thing. We’re all chameleons in our own way. I just happen to switch colors between Wi-Fi and real life.
+      </p>
+    `,
+  },
 ];
 
 export default blogs;
