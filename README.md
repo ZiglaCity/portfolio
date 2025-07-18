@@ -95,6 +95,9 @@ Here are some of the stories you'll find in my portfolio:
 - **The Merrylow Journey** – How my team and I built a full-stack platform.
 - **Why I code at 2AM?** – My Mom asks why I don't sleep, I guess its obvious.
 - **The Developer’s Paradox** – More raw truths you didn’t see coming.
+- **The Paradox of Modern Freedom** – We have the freedom to do anything—but somehow, we feel lost.
+- **Women in Tech** – Diversity is trending. But is it progress… or PR?
+- **Am I Really Me?** – Online, I’m bold and unstoppable. Offline? Sometimes I don’t even want to say hi. So… which one is real?"
 
 ---
 
