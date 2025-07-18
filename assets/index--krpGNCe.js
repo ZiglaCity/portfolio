@@ -458,6 +458,66 @@ Error generating stack: `+a.message+`
       <p>
       So if you’re out there feeling the same—different, distant, driven—remember this: You’re not crazy for wanting more. You’re just SOLO. And maybe that’s exactly what you need to win.
       </p>
+    `},{id:17,title:"The Paradox of Modern Freedom",date:"July 18, 2025",image:new URL("/portfolio/assets/modern-freedom-iU99qk1b.png",import.meta.url).href,tags:["Life","Society","Mindset"],excerpt:"We have the freedom to do anything—but somehow, that’s exactly why so many of us feel lost.",content:`
+      <p>
+      We live in a time where freedom is at its peak. You can work remotely from a beach, start a business from your bedroom, date anyone across the globe, and learn anything online for free. Sounds like paradise, right?
+      </p>
+
+      <p>
+      But here’s the paradox: Unlimited options don’t make us free. They make us anxious.
+      </p>
+
+      <p>
+      Modern life comes with an unspoken pressure: <strong>“If you’re not successful, it’s your fault because you had every opportunity.”</strong> So we scroll through Instagram, comparing our behind-the-scenes to someone else’s highlight reel, thinking, <em>“Why am I not living like that?”</em>
+      </p>
+
+      <p>
+      We’ve replaced simplicity with a constant chase for what’s next. We don’t sit with boredom anymore; we binge, scroll, consume. We’ve mistaken access for meaning, and now we’re paying the price.
+      </p>
+
+      <p>
+      Maybe freedom was never about endless options. Maybe it’s about making a few choices that matter—and shutting the rest out.
+      </p>
+    `},{id:18,title:"Women in Tech — Breaking Barriers or Building New Ones?",date:"July 18, 2025",image:new URL("/portfolio/assets/women-in-tech-Cct7nhCU.webp",import.meta.url).href,tags:["Tech","Diversity","Opinion"],excerpt:"Diversity is trending. But is it progress… or PR?",content:`
+      <p>
+      Tech loves buzzwords: AI, Blockchain, Innovation. And now? <strong>Diversity.</strong>
+      </p>
+
+      <p>
+      Companies plaster “We support women in tech” all over their job posts. Sounds great. But here’s the uncomfortable question: Are they doing it for impact… or for image?
+      </p>
+
+      <p>
+      Don’t get me wrong—progress is real. Women are coding, leading, and building empires in tech like never before. But sometimes it feels like the movement has been hijacked by corporate virtue signaling. Diversity without inclusion is just a checkbox.
+      </p>
+
+      <p>
+      Empowerment should never be about token seats in boardrooms or PR campaigns during Women’s Month. It’s about mentorship, equal pay, real growth opportunities—and not making women feel like they have to “prove” they belong.
+      </p>
+
+      <p>
+      So here’s to the real builders—the women who don’t just want a seat at the table but are building their own tables. Respect where it’s due.
+      </p>
+    `},{id:19,title:"Am I Really Me?",date:"July 18, 2025",image:new URL("/portfolio/assets/am-i-me-C-6nE61y.png",import.meta.url).href,tags:["Life","Identity","Mindset"],excerpt:"Online, I’m bold and unstoppable. Offline? Sometimes I don’t even want to say hi. So… which one is real?",content:`
+      <p>
+      Ever feel like you’re two completely different people? Because I do—every single day.
+      </p>
+
+      <p>
+      Online, I’m loud. Funny. The guy dropping memes and one-liners like confetti. The type of dude who makes everyone laugh in the group chat, who seems like he’s got endless energy. But offline? 
+      </p>
+
+      <p>
+      Let’s just say… if social energy was a battery, mine dies faster than an iPhone on 2% playing TikToks. Suddenly, I’m the quiet guy in the corner, overthinking if I should even wave at someone I know. Talking to a girl? Might as well ask me to solve world hunger first.
+      </p>
+
+      <p>
+      So which one is the real me? The truth is… both. We’ve all got layers. Maybe the internet just lets me be the version of me that doesn’t need to fight social anxiety, judgment, or awkward stares. Maybe being “me” isn’t about picking one side. It’s about owning every side.
+      </p>
+
+      <p>
+      Because, real talk: Nobody’s just one thing. We’re all chameleons in our own way. I just happen to switch colors between Wi-Fi and real life.
+      </p>
     `}];function wO(){const[i,n]=G.useState(null);return P.jsx("section",{id:"blog",className:"py-16 bg-gray-950 text-white mt-7",children:P.jsxs("div",{className:"max-w-6xl mx-auto px-6",children:[!i&&P.jsxs(ze.h2,{className:"text-4xl font-extrabold text-center mb-12",initial:{opacity:0,y:-50},whileInView:{opacity:1,y:0},transition:{duration:.8},children:["Latest ",P.jsx("span",{className:"text-purple-500",children:"Blogs"})]}),i?P.jsxs(ze.div,{className:"bg-gray-800 p-6 rounded-2xl shadow-lg",initial:{opacity:0,y:50},animate:{opacity:1,y:0},children:[P.jsx("img",{src:i.image,alt:i.title,className:"w-full h-64 object-cover rounded-xl mb-6"}),P.jsx("h2",{className:"text-4xl font-bold mb-4",children:i.title}),P.jsx("p",{className:"text-gray-400 mb-6",children:i.date}),P.jsx("p",{className:"text-gray-300 leading-relaxed",dangerouslySetInnerHTML:{__html:i.content}}),P.jsx("button",{className:"mt-8 px-6 py-3 bg-purple-600 rounded-lg hover:bg-purple-700 transition",onClick:()=>n(null),children:"Back to Blogs"})]}):P.jsx("div",{className:"grid gap-10 sm:grid-cols-2 lg:grid-cols-3",children:bO.map((r,s)=>P.jsxs(ze.div,{className:"bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform cursor-pointer",onClick:()=>n(r),initial:{opacity:0,y:50},whileInView:{opacity:1,y:0},transition:{delay:s*.1},children:[P.jsx("img",{src:r.image,alt:r.title,className:"w-full h-40 object-cover"}),P.jsxs("div",{className:"p-6",children:[P.jsx("h3",{className:"text-2xl font-bold mb-2",children:r.title}),P.jsx("p",{className:"text-gray-400 text-sm mb-4",children:r.date}),P.jsx("p",{className:"text-gray-300 mb-4",children:r.excerpt}),P.jsx("div",{className:"flex gap-2 flex-wrap",children:r.tags.map((l,u)=>P.jsx("span",{className:"bg-purple-600 text-xs px-2 py-1 rounded-full",children:l},u))})]})]},s))})]})})}const SO=[{slug:"real-me",title:"The Real Me",excerpt:"Peeling back the code syntax to show who I am beyond the screen.",content:`I’m more than algorithms and endpoints. My journey started under the Ghanaian sun, where I first learned to code on a hand-me-down laptop...  
 
 Stepping onto the football pitch taught me teamwork and improvisation—skills I bring to every sprint planning session...  
