@@ -604,6 +604,40 @@ const blogs = [
       </p>
     `,
   },
+  {
+    id: 20,
+    title: "Life Sucks… But Who Cares?",
+    date: "July 27, 2025",
+    image: new URL("../assets/blogs/life-sucks.png", import.meta.url).href,
+    tags: ["Life", "Mindset", "Hustle"],
+    excerpt:
+      "When life throws punches, you don’t cry about the pain—you learn how to swing back. This is why I keep grinding when everything falls apart.",
+    content: `
+      <p>
+      Let’s keep it real: life isn’t always fair. Some days, it feels like the universe wakes up and says, “Let’s mess with Zigla today.” And trust me, I’ve had a few of those days lately.
+      </p>
+
+      <p>
+      Not too long ago, I planned out the perfect break. A whole vacation dedicated to taking online courses, building projects, and leveling up my skills. Everything was set. And then… my laptop broke. Gone. Just like that, my entire plan went down the drain.
+      </p>
+
+      <p>
+      Fast forward a few months—life seemed like it was finally picking up. I landed internships, started preparing for exams, and had projects lined up that I was genuinely excited about. Then it happened again. Got robbed. Lost my phone, my SIM cards (goodbye, 2FA logins), and my mini MiFi—the one thing that keeps me connected and working online.
+      </p>
+
+      <p>
+      At first, it felt like the final straw. Like, how many times can life hit you before you tap out? But then I realized something: nobody cares. Harsh? Yeah. True? Absolutely. The world doesn’t stop spinning because Zigla had a bad day. Deadlines don’t care about your Wi-Fi. Clients don’t care about your stolen phone. And opportunities? They don’t wait for anyone.
+      </p>
+
+      <p>
+      So, what now? You get up. You show up. You put in the work—even when it sucks. Because giving up doesn’t make the pain go away. It just adds regret to the list. And I refuse to live with that.
+      </p>
+
+      <p>
+      Life sucks sometimes. But quitting sucks more. And if this storm doesn’t break me, then it’s only making my grind legendary. So yeah… still here. Still coding. Still dreaming. Still building. Because the only way out is through.
+      </p>
+    `,
+  },
 ];
 
 export default blogs;
