@@ -33,7 +33,7 @@ export default function Blog() {
                 <img
                   src={post.image}
                   alt={post.title}
-                  className="w-full h-40 object-cover"
+                  className="w-full h-60 sm:h-45 md:h-50 object-cover"
                 />
                 <div className="p-6">
                   <h3 className="text-2xl font-bold mb-2">{post.title}</h3>
@@ -59,7 +59,7 @@ export default function Blog() {
             <img
               src={selectedPost.image}
               alt={selectedPost.title}
-              className="w-full h-64 object-cover rounded-xl mb-6"
+              className="w-full h-70 sm:h-100 md:h-150 object-cover rounded-xl mb-6"
             />
             <h2 className="text-4xl font-bold mb-4">{selectedPost.title}</h2>
             <p className="text-gray-400 mb-6">{selectedPost.date}</p>
