@@ -9,9 +9,31 @@ import Post from './components/Post';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import About from './components/About';
+import { supabase } from "./utils/supabase";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
+
+  const [blogs, setBlogs] = useState([]);
+
+  useEffect(() => {
+    const fetchBlog = async () => {
+      const { data, error } = await supabase
+        .from("blog")
+        .select("*")
+        .order("blog_number", { ascending: true });
+
+      if (error) {
+        console.error("Error fetching blogs:", error);
+        return;
+      }
+
+      setBlogs(data);
+    };
+
+    fetchBlog();
+  }, []);
+
 
   useEffect(() => {
     const storedMode = localStorage.getItem('darkMode');
@@ -37,7 +59,7 @@ function App() {
               <Experience />
             </>
           }/>
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog" element={<Blog online_blogs={blogs}/>} />
           <Route path="/blog/:slug" element={<Post />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
