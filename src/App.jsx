@@ -9,7 +9,7 @@ import Post from './components/Post';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import About from './components/About';
-import { supabase } from "./utils/supabase";
+import { supabase } from "./utils/supabase.config";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
