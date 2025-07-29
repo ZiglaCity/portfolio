@@ -2,8 +2,14 @@ import { useState } from "react";
 import blogs from "../data/blogs";
 import { motion } from "framer-motion";
 
-export default function Blog() {
+export default function Blog({online_blogs}) {
   const [selectedPost, setSelectedPost] = useState(null);
+
+  let latest_blogs = blogs;
+  if (online_blogs && online_blogs.length > 0){
+    console.log("Found some online blogs", online_blogs)
+    latest_blogs = online_blogs;
+  }
 
   return (
     <section id="blog" className="py-16 bg-gray-950 text-white mt-7">
@@ -21,7 +27,7 @@ export default function Blog() {
 
         {!selectedPost ? (
           <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
-            {blogs.map((post, index) => (
+            {latest_blogs.map((post, index) => (
               <motion.div
                 key={index}
                 className="bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform cursor-pointer"

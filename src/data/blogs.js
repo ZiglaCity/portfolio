@@ -638,6 +638,207 @@ const blogs = [
       </p>
     `,
   },
+  {
+    id: 21,
+    title: "Could You Survive Being Me?",
+    date: "July 28, 2025",
+    image: new URL("../assets/blogs/survive-me.png", import.meta.url).href,
+    tags: ["Life", "Struggle", "Mindset", "Privilege"],
+    excerpt:
+      "Privilege? Never had it. Luck? Rarely. Yet somehow, I keep showing up in spaces they said I’d never reach. Could you survive being me?",
+    content: `
+    <p>
+      Let’s be real — some people were born on the finish line. Me? I started where the track didn’t even exist.
+    </p>
+
+    <p>
+      Let’s talk academics. I’ve never been a resident on campus — not because I didn’t want to, but because I could never afford it. Do you know what that means? It means missing in-person lectures, quizzes, and those surprise attendance checks that could tank your grade. It means rushing through traffic for a 30-minute paper you might not even get to write if you’re late. And yet, somehow, I’ve managed to stay in the 95% category with a GPA above 3.8.
+    </p>
+
+    <p>
+      And it wasn’t easy. There were moments I almost gave up entirely — like when the academic fee deadline was breathing down my neck and I had no idea how I was going to pay. You’re performing at your best, getting top scores, and still thinking, “What’s the point if I can’t even stay enrolled?” I applied for scholarships, nailed the interviews, but guess what? Luck never smiled. That stings in ways I can’t even explain.
+    </p>
+
+    <p>
+      But the grind didn’t stop there. While juggling all that, I still fought for opportunities. And that’s how I became one of only TWO Level 200 students in my department to join A2SV — a program that handpicks the best coders on campus. I was competing against Level 300 and 400 CS and Engineering students, and in 12 of their weekly contests, I participated in 10 and finished top 3 in 8 of them. Not luck. Not privilege. Just pure willpower and work ethic.
+    </p>
+
+    <p>
+      And this doesn’t end with academics or coding. My life has always been about making the most out of the least. Personality-wise? I’m the guy who can stay indoors for weeks. People in the same house can go months without seeing me. But that isolation? It’s not weakness. It’s where I build myself. A year ago, my typing speed was barely 30 WPM. I had a friend hitting 90+. Today? I type faster than him. Why? Because every second I get, I invest in me- not just typing tho!.
+    </p>
+
+    <p>
+      None of this is to brag. It’s a survival story. I’ve had every reason to quit, but here I am. Because circumstances don’t define me — mindset does. Like NF said, “There’s millions of us just like you...” But here’s the question: how many make it through?
+    </p>
+
+    <p>
+      So I ask again — could you survive being me?
+    </p>
+  `,
+  },
+  {
+    id: 22,
+    title: "Overthinker with Bad Memory",
+    date: "July 29, 2025",
+    image: new URL("../assets/blogs/overthinker-memory.png", import.meta.url)
+      .href,
+    tags: ["Mindset", "Logic", "Neurodivergence", "Personal"],
+    excerpt:
+      "Imagine having the brain of a master tactician but the memory of a goldfish. That’s me — I’ll solve your toughest logic problem and forget what I had for lunch.",
+    content: `
+  <p>
+    Here’s something funny — I could invent a whole new algorithm from scratch in a contest because I dug so deep into a problem, only to later find out the official solution was just <b>Arrays.sort()</b>.
+  </p>
+
+  <p>
+    And no, I’m not joking. My friends would solve the same question in under 3 minutes. I’d spend 45. Not because I was stuck — but because I was designing a full-on sorting network, convinced there had to be a trick. There wasn’t. But what I built actually worked — and they didn’t even understand how.
+  </p>
+
+  <p>
+    That’s the life of someone with intense reasoning ability but mid-tier (at best) memory retention. I can pick apart abstract math and physics ideas like it’s nothing. I could listen to a complex concept once, and reconstruct it with even deeper insights. But ask me what we discussed yesterday over lunch? No clue. Gone. It’s like my brain filters out what it deems “non-essential” — and trust me, it’s ruthless.
+  </p>
+
+  <p>
+    I’ve never been good with History. Couldn’t memorize dates or timelines if you paid me. In fact, if you offered me a full scholarship plus monthly stipend to study Medicine, I’d still say no. Not because I can’t reason through the biology — but because I know I’d forget half the memorized terms before the exam. That’s just how my mind works. It optimizes for logic, not recall.
+  </p>
+
+  <p>
+    But when I enter a coding contest or solve a real-world logic puzzle, it’s like Hikaru playing bullet chess with 2 seconds on the clock. Everything connects instantly. I see through the noise, I bend rules (safely), and I create solutions that weren’t even in the textbook.
+  </p>
+
+  <p>
+    It’s a weird paradox to live in — being brilliant in chaos and yet forgetful in calm. But I’ve learned to embrace it. Because even if I can’t remember what day it is, when the real challenge hits… I show up with answers no one else saw coming.
+  </p>
+  `,
+  },
+  {
+    id: 23,
+    title: "Nobody is *Literally* Safe Online. Here’s Why.",
+    date: "July 29, 2025",
+    image: new URL("../assets/blogs/nobody-safe.png", import.meta.url).href,
+    tags: ["Cybersecurity", "Privacy", "Internet", "Mindset"],
+    excerpt:
+      "You think you're safe online because you don’t post much? Nah… you lost that privilege the moment you connected to the internet.",
+    content: `
+  <p>
+    The moment you connect to the internet, you expose yourself. 
+    Not because you posted a photo. 
+    Not because you wrote a blog. 
+    But because you simply… <strong>connected</strong>.
+  </p>
+
+  <p>
+    Let’s clear this up real quick: <br>
+    You don't need to overshare or post selfies to be vulnerable online. 
+    The <em>real exposure</em> begins the second your device pings a Wi-Fi tower or connects to mobile data. 
+    That tiny moment you hit <code>“I agree”</code> on terms and conditions you didn’t read—<strong>you’re already in the system</strong>.
+  </p>
+
+  <p>
+    <em>“But I don’t log in to anything, I just browse.”</em>  
+    Lol. That was valid in 2008.  
+    Today, you can’t do anything meaningful online without logging in. 
+    Platforms hold content hostage until you give up your identity. 
+    Some restrict research papers, downloads, or even full articles unless you’re signed in.
+  </p>
+
+  <p>
+    And let’s say you somehow sneak around unlogged—what happens when your device dies mid-task? 
+    No account. No autosave. No cloud sync. All that progress? <strong>Gone</strong>.
+  </p>
+
+  <p>
+    So now you’re <em>forced</em> to log in just to function. 
+    And the moment you do, they know:
+    <ul>
+      <li>Your location</li>
+      <li>Your IP address</li>
+      <li>Your device model</li>
+      <li>Your screen resolution, typing pattern, and more</li>
+    </ul>
+  </p>
+
+  <p>
+    <strong>The Illusion of Privacy</strong><br />
+    “But I’ve never posted anything about myself.”  
+    Cool. But… your number exists in a database somewhere.  
+    Your name is on some graduation list.  
+    You once gave your birthday for a discount code.  
+    <strong>Bam. You’re already traceable.</strong>
+  </p>
+
+  <p>
+    I can find you in under 10 minutes with just your number.  
+    You don’t have to overshare to be <em>already shared</em>.  
+    The web is connected in crazy, invisible ways.
+  </p>
+
+  <p>
+    So who’s safe?<br />
+    Nobody.  
+    Not me. Not you. Not your grandma who only likes church flyers on Facebook.  
+    The question isn’t <strong>“Am I vulnerable?”</strong>  
+    It’s <strong>“How well can I protect myself?”</strong>
+  </p>
+
+  <p>
+    Start here:
+    <ul>
+      <li>Use 2FA</li>
+      <li>Don’t reuse passwords</li>
+      <li>Actually read what you’re agreeing to</li>
+      <li>Log out if you don’t need to stay in</li>
+      <li>Don’t overshare, but also… don’t be delusional</li>
+    </ul>
+  </p>
+
+  <p>
+    If you’ve read my blogs, you probably feel like you know me.  
+    Maybe you do.  
+    But that doesn’t make you less vulnerable than I am.
+  </p>
+
+  <p>
+    The game isn’t about avoiding exposure anymore—that ship has sailed.  
+    It’s about <strong>minimizing risk</strong>.
+  </p>
+
+  <p>
+    So next time you see someone sharing their life online, stop saying, “they’re making themselves vulnerable.”  
+    <strong>We all already are.</strong><br />
+    The real flex?  
+    <strong>Knowing how to play defense.</strong>
+  </p>
+  `,
+  },
+  {
+    id: 24,
+    title: "Sorry Ain’t Answer… I’ve Been Busy",
+    date: "July 29, 2025",
+    image: new URL("../assets/blogs/sorry-aint-answer.png", import.meta.url)
+      .href,
+    tags: ["Reflection", "Life", "Growth", "Silence"],
+    excerpt:
+      "I used to live for the joy of dusty football and cheap ice cream. Now, I barely answer my phone. This one’s a reflection, raw and real.",
+    content: `
+    <p><em>“Sorry ain’t answer I’ve been busy, lot of things been bothering me lately wish I could go back in time and erase it.”</em><br/>— GTW Mik</p>
+
+    <p>This line been ringing in my head all day. You know, I’ve been thinking about how good I had it as a kid. Charlie, Life's been moving too fast lately. Like I'm strapped to a rocket I didn’t even ask to ride.</p>
+
+    <p>Like...<br/>I really used to live. Life wasn’t fancy or perfect or anything like that, but I swear it felt like I had the whole world in my palm. Back then, after school? Football every single day Shoes off, socks brown, hearts racing, legs running wild. We didn’t have a stadium — we had a dusty field, two stones as goalposts, and a reason to feel alive.
+    We’d chase that ball till the sun disappeared and our shadows faded into dust.</p>
+
+    <p>And brooo, if you ever heard about a party in the hood? Best believe I was there. Not for drinks. Not for girls. But for those dancing competitions. I remember winning 1 cedi one time — deadass felt like I just hit the lottery. Split it with my boys, gave 20 pesewas each to two of them, and we ran straight to the ice cream seller like kings. </p>
+
+    <p>Weekends? Skating. Biking. Skating again. And then maybe gambling with rubber bands like our lives depended on it. Grandpa would call me over and we’d play cards — not even for the game’s sake, but just to laugh, talk, and feel alive. I had my lil bro with me too, and we’d turn the house upside down with made-up games that made zero sense but felt like everything, break random things and then run from random beatings. </p>
+
+    <p>Now? It’s like I’m here, but also… not really. <br>I barely want to talk to anyone. Not out of hate, just… don’t feel like it. My phone could ring twenty times and I wouldn’t flinch. Earphones in, heart locked, mind drowning in music and these dreams bigger than my head can even carry. I just stare at my dark screen — not sad, not depressed or anything like that, just… floating. </p>
+    
+    <p>We all wanted to grow up. Chase something bigger. Live something better. But truth is, I’d trade a thousand “busy” days for one more sunny afternoon with a rubber band in my pocket and a coin in my shoe, waiting for the next party beat to drop. </p>
+
+    <p>But hey… <br>I ain’t sad. <br>I’m just soaking in the silence. <br>Till then…<br/>I’ll just keep floating in my own world.<br/>Shoot my shot at the grind —<br/>Hope I don’t miss it.</p>
+  `,
+  },
 ];
 
 export default blogs;
