@@ -839,6 +839,209 @@ const blogs = [
     <p>But hey… <br>I ain’t sad. <br>I’m just soaking in the silence. <br>Till then…<br/>I’ll just keep floating in my own world.<br/>Shoot my shot at the grind —<br/>Hope I don’t miss it.</p>
   `,
   },
+  {
+    id: 25,
+    title: "Is Comparison Really the Thief of Joy?",
+    date: "July 20, 2025",
+    image: new URL("../assets/blogs/comparison-thief.png", import.meta.url)
+      .href,
+    tags: ["Mindset", "Growth", "Coding Journey", "Real Talk"],
+    excerpt:
+      "One second you’re working, next you’re deep in someone else’s GitHub portfolio, questioning your whole existence. So is comparison killing your joy… or is it fueling the grind?",
+    content: `
+  <p>
+    Sometimes, I’m just casually working on my laptop — headphones in, tabs open, maybe sipping something cold — when I accidentally (on purpose?) end up deviating a little. Just a bit, right?
+  </p>
+
+  <p>
+    Next thing I know, I’m knee-deep in someone’s GitHub — a dev who’s been writing code since the early 2010s, publishing open-source tools, maintaining sleek packages, building startups, and doing God-knows-what with AI. 
+    It starts out as admiration, but it slowly morphs into a low hum of <em>“Damn… what have I even done?”</em>
+  </p>
+
+  <p>
+    I mean, these folks are certified beasts. Their commits read like symphonies. Their portfolios are filled with battle-tested apps and clean, type-safe wizardry. And here I am — not even two full years deep into this dev journey — somehow measuring myself on the same scale. Like… what?
+  </p>
+
+  <p>
+    It’s wild how quick the mind is to forget time, context, and reality.
+  </p>
+
+  <h3>When Comparison Stings</h3>
+  <p>
+    It’s true — comparison can absolutely steal your joy. You start the day feeling productive, get a few things done, maybe squash a few bugs or finish a feature. 
+    And then, out of nowhere, that innocent detour becomes a deep dive into someone else’s journey. 
+    A journey that didn’t start yesterday, btw. A journey built on years — of failures, pivots, persistence, mentorship, and timing.
+  </p>
+
+  <p>
+    And yet we forget that.
+  </p>
+
+  <p>
+    Suddenly, your achievements feel small. Your growth feels slow. You start questioning if you’re really cut out for this. 
+    And the worst part? It happens quietly. It doesn’t yell — it just whispers: <em>“You should be further by now.”</em>
+  </p>
+
+  <p>
+    But… who says?
+  </p>
+
+  <h3>When Comparison Fuels</h3>
+  <p>
+    Here’s the twist though — sometimes that very comparison? It lights a fire.
+  </p>
+
+  <p>
+    There’ve been days I’ve stumbled on a dev’s project or personal site and instead of falling into a pit of self-doubt, I’ve come out supercharged. 
+    Like, <em>“Yo, I wanna build something clean like this. I wanna ship. I wanna learn that tech stack. I wanna get there.”</em>
+  </p>
+
+  <p>
+    It’s weird, but depending on the day, the mood, or even how much sleep I’ve had — comparison either crushes me or carries me. 
+    Some days, I compare myself to people who started just before me or are slightly ahead, and I’m like, yo, I’m cooking. 
+    The code may be messy sometimes, but the vision? Still sharp.
+  </p>
+
+  <p>
+    Funny thing though — even when I do outperform expectations or build something solid, I still never really feel ahead. Like ever.
+  </p>
+
+  <p>
+    Why? Maybe it’s because I know how much I don’t know yet. Or maybe it’s because deep down, I’m scared that feeling “on top” might make me complacent.
+  </p>
+
+  <p>
+    So I stay hungry. Almost too hungry sometimes.
+  </p>
+
+  <h3>The Real Thief of Joy?</h3>
+  <p>
+    If I’m being honest, maybe comparison isn’t the thief of joy — maybe <strong>forgetting your own timeline</strong> is. 
+    Maybe joy starts to slip when you stop appreciating how far you’ve come. 
+    When you zoom too far out, or too far ahead, and forget that two years ago you didn’t even know what the hell a “middleware” was.
+  </p>
+
+  <p>
+    <strong>Perspective matters.</strong>
+  </p>
+
+  <p>
+    It’s okay to look up — just don’t look so long that you forget to look around. 
+    It’s okay to feel behind — just don’t let that stop you from showing up. 
+    And if you're gonna compare, compare with yourself last month, not a 10-year veteran’s highlight reel.
+  </p>
+
+  <h3>Final Note</h3>
+  <p>
+    Growth ain’t linear. Confidence isn’t permanent. Some days, you’ll feel like a genius. Other days, imposter syndrome will hit like a truck. That’s normal.
+  </p>
+
+  <p>
+    What matters is you don’t let the voice of comparison drown out the voice of curiosity.
+  </p>
+
+  <p>
+    So yeah… maybe I’ll scroll GitHub less. <br>
+    Or maybe I won’t.
+  </p>
+
+  <p>
+    But either way, I’ll remember: <br>
+    I’m not late. <br>
+    I’m not lost. <br>
+    I’m just learning. <br>
+    And that's more than enough.
+  </p>
+  `,
+  },
+  {
+    id: 27,
+    title: "Am I Really Gay?",
+    date: "July 30, 2025",
+    image: new URL("../assets/blogs/am-i-gay.png", import.meta.url).href,
+    tags: ["Personal", "Unfiltered", "Real Talk", "LOL"],
+    excerpt:
+      "Male friends? Got a few. Female friends? Got none. So does that mean I’m gay? Maybe. Or maybe I’m just... happy as hell. Let’s unpack it.",
+    content: `
+  <p>
+    Male friends, I got a few of them. Female friends? <strong>Zero.</strong> So does that mean I’m gay?
+  </p>
+
+  <p>
+    Well, it depends on what you mean by <em>gay</em>. To me, gay means being happy. And bro — <strong>I’m happy as fuck!</strong> 😅
+  </p>
+
+  <p>
+    I’m not saying I’m happy <em>because</em> I’m gay oooh. Eih. But if gay means happy, and I’m happy, then... does that mean I’m gay because I’m happy? Or happy because I’m gay?
+  </p>
+
+  <p>
+    See, we’ll probably never know. But let me be honest — the idea of having a female friend has never even crossed my mind.
+  </p>
+
+  <p>
+    That’s why I could collect the number of the nicest girl on campus <em>during an exam</em>... and instead of texting “Hi 👋”, I sent her... a file. <br>
+    A whole <strong>PDF dossier of herself.</strong>
+  </p>
+
+  <p>
+    And when I say “herself,” I mean I attached her picture, wrote her full name, described her family, named her father, mother, and even her brother.
+  </p>
+
+  <p>
+    Yeah... her brother. <em>That guy’s a senior Java developer in some country outside Ghana.</em> And I kinda fell in love with his LinkedIn profile.
+  </p>
+
+  <p>
+    Some people will call it creepy. I call it beautiful. It felt <strong>right</strong>, you know?
+  </p>
+
+  <p>
+    And that’s when the floodgates opened. The girl who normally replies with “k”, “yh”, “hmm”... suddenly turned into a <em>whole</em> novelist.
+  </p>
+
+  <p>
+    “How did you know this?” <br>
+    “Where did you see that?” <br>
+    “Why won’t you answer my questions?” <br>
+    “ARE YOU OKAY??” <br>
+    <br>
+    Messages just kept dropping like rainfall in Takoradi. And me? I just went offline — <strong>intentionally</strong>. 😎
+  </p>
+
+  <p>
+    When I came back, more paragraphs were waiting. That's how the convo began.
+  </p>
+
+  <h3>But the Old Me?</h3>
+  <p>
+    That guy who used to Google: <br>
+    <em>“How to talk to girls”</em><br>
+    <em>“How to keep a convo going with a girl”</em><br>
+    <em>“What to ask a girl you like”</em><br>
+    That guy is long gone.
+  </p>
+
+  <p>
+    Now? If you don’t text back — cool. We move. My time? <strong>Fucking valuable</strong>. And I’m not sharing that with just anyone’s daughter.
+  </p>
+
+  <h3>So... Am I Gay?</h3>
+  <p>
+    Maybe I am. Maybe I’m just <strong>peaceful</strong>. Maybe I just like vibes over flirting. Maybe I just want my energy to stay clean and unbothered.
+  </p>
+
+  <p>
+    Will I stay gay forever? Maybe yes. But the <em>other</em> gay? Definitely not. I just know this isn’t the season for that.
+  </p>
+
+  <p>
+    So to any girl out there I might be ignoring: <br>
+    <strong>I hope you forget me.</strong><br>
+    I’m just gay.
+  </p>
+  `,
+  },
 ];
 
 export default blogs;
