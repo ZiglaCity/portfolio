@@ -6,7 +6,7 @@ import "dotenv/config";
 
 const SUPABASE_URL = "https://dzluahgzueekvlpipiqe.supabase.co";
 const SUPABASE_ANON_KEY = process.env.SUPABASE_ANON_KEY;
-const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY;
+// const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY;
 
 console.log("URL ", SUPABASE_URL);
 console.log("Anon: ", SUPABASE_ANON_KEY);
@@ -41,6 +41,9 @@ async function insertBlogs(blogArray = blogs) {
         const fileName = blog.image.split("/").pop();
         const localPath = path.resolve(`../assets/blogs/${fileName}`);
         const imageFile = await fetchImageAsFile(localPath, fileName);
+        if (blog.id != 25) {
+          return;
+        }
         if (!imageFile) {
           console.warn(
             `Skipping image for "${blog.title}" due to missing file.`
@@ -96,4 +99,4 @@ async function insertBlogs(blogArray = blogs) {
   }
 }
 
-// insertBlogs();
+insertBlogs();

@@ -1,0 +1,16 @@
+Include searching blogs by title keywords as well...
+
+implement the sort functionalitites on the blog, where a user can sort base on date - either latest to
+    pervious, or vice versa sort based on categories(maybe later)
+
+work on the blog posts to make it easily sharable by url
+-should we use the uuid's id or the int blog numbers?? 
+the uuid will only work for off supabase blogs, while the uuid will work for the supabase blogs
+
+if the user searches for a blog, then change the Latest blog to "Search result for {searcheword}....
+design a sorry, you're lost page for blogs that don't exist.
+
+subscribe to the blog table for an insert event, and update the tagsWithId on insert....
+
+learn more about 
+  // const tagsAndBlogIds = useMemo(() => tagsWithIds(blogs), [blogs]);
