@@ -17,8 +17,9 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-lg bg-gray-900/60 text-white shadow-md">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         
+        {/* add a "you seem to be lost page when the ZiglaCity log is clicked..." */}
         <motion.a
-          href="#home"
+          href="#/"
           className="text-2xl font-extrabold tracking-wide text-purple-500"
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
@@ -76,6 +77,14 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
+          <a
+            href={`${base}resume.pdf`}
+            className="text-lg font-medium hover:text-purple-400"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
         </motion.div>
       )}
     </nav>
