@@ -35,7 +35,7 @@ function App() {
       return
     }
     for(const [key, value] of Object.entries(tagsAndBlogIds)){
-      if (searchWord.includes(key) && Array.isArray(value)) {
+      if (searchWord.toLowerCase().includes(key) && Array.isArray(value)) {
         searchBlogIds.push(...value);
       }
     }
@@ -51,23 +51,23 @@ function App() {
     console.log("Search Results", newSearchResults);
   }
 
-  // useEffect(() => {
-  //   const fetchBlog = async () => {
-  //     const { data, error } = await supabase
-  //       .from("blog")
-  //       .select("*")
-  //       .order("blog_number", { ascending: true });
+  useEffect(() => {
+    const fetchBlog = async () => {
+      const { data, error } = await supabase
+        .from("blog")
+        .select("*")
+        .order("blog_number", { ascending: true });
 
-  //     if (error) {
-  //       console.error("Error fetching blogs:", error);
-  //       return;
-  //     }
+      if (error) {
+        console.error("Error fetching blogs:", error);
+        return;
+      }
 
-  //     setBlogs(data);
-  //   };
+      setBlogs(data);
+    };
 
-  //   fetchBlog();
-  // }, []);
+    fetchBlog();
+  }, []);
 
 
   useEffect(() => {

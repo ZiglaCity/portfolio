@@ -5,10 +5,11 @@ export default function tagsWithIds(blogs) {
     blogs.forEach((blog) => {
       const tags = blog.tags;
       tags.forEach((tag) => {
-        if (tagsWithIds[tag]) {
-          tagsWithIds[tag].push(blog.id);
+        let t = tag.toLowerCase();
+        if (tagsWithIds[t]) {
+          tagsWithIds[t].push(blog.id);
         } else {
-          tagsWithIds[tag] = [blog.id];
+          tagsWithIds[t] = [blog.id];
         }
       });
     });
