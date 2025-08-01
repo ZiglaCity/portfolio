@@ -2,7 +2,7 @@ import Blog from '../components/Blog'
 import Search from '../components/Search'
 import { motion } from "framer-motion";
 
-export default function BlogsPage({setSearchWord, searchBlog, blogs, selectedPost, setSelectedPost, searhedBlogs}){
+export default function BlogsPage({setSearchWord, searchBlog, blogs, selectedPost, setSelectedPost, searhedBlogs, setSearchBlog}){
   console.log("Available blogs in the blogPage: ", blogs);
   return (
     <section id="blog" className="py-16 bg-gray-950 text-white mt-7">
@@ -18,7 +18,7 @@ export default function BlogsPage({setSearchWord, searchBlog, blogs, selectedPos
             </motion.h2>
           )}
         {!selectedPost && <Search setSearchWord={setSearchWord} searchBlog={searchBlog}/>   }
-        <Blog blogs={blogs} searchedBlogs={searhedBlogs} selectedPost={selectedPost} setSelectedPost={setSelectedPost} />
+        <Blog blogs={blogs} searchedBlogs={searhedBlogs} selectedPost={selectedPost} setSelectedPost={setSelectedPost} setSearchBlog={setSearchBlog}/>
       </div>
     </section>
   )

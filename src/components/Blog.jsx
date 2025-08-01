@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
+import NotFound from "./NotFound";
 
-export default function Blog({blogs, searchedBlogs, selectedPost, setSelectedPost}) {  
+export default function Blog({blogs, searchedBlogs, selectedPost, setSelectedPost, setSearchBlog}) {  
 
   let latest_blogs = blogs;
   console.log("Latest blogs from Blogs: ", latest_blogs);
@@ -9,9 +10,7 @@ export default function Blog({blogs, searchedBlogs, selectedPost, setSelectedPos
   }
   else if (searchedBlogs && searchedBlogs.length == 0){
     return (
-      // will design this page later...
-      <h1> Sorry, You're lost!
-      </h1>
+      <NotFound  setSearchBlog={setSearchBlog}/>
     )
   }
 

@@ -842,7 +842,7 @@ const blogs = [
   {
     id: 25,
     title: "Is Comparison Really the Thief of Joy?",
-    date: "July 20, 2025",
+    date: "July 30, 2025",
     image: new URL("../assets/blogs/comparison-thief.png", import.meta.url)
       .href,
     tags: ["Mindset", "Growth", "Coding Journey", "Real Talk"],
@@ -1040,6 +1040,58 @@ const blogs = [
     <strong>I hope you forget me.</strong><br>
     I’m just gay.
   </p>
+  `,
+  },
+  {
+    id: 28,
+    title: "How Productive Could You Be Without Internet Access?",
+    date: "August 1, 2025",
+    image: new URL("../assets/blogs/offline-productivity.png", import.meta.url)
+      .href,
+    tags: ["Personal", "Dev Life", "Offline Mode", "Focus"],
+    excerpt:
+      "No Wi-Fi. No distractions. Just me, my code, and some aggressive console.logs. Offline mode turned me into a productivity beast.",
+    content: `
+    <p>(...asking for a friend — that friend is me.)</p>
+
+    <p>Let’s be honest. In this modern age, life without the internet sounds like some survivalist reality TV challenge. Everyone’s connected — your toaster probably has Wi-Fi. But me? I’m thriving in what I like to call: <strong>Offline Beast Mode</strong>.</p>
+
+    <p>See, I’m not boycotting the internet on purpose. It’s not some deep philosophical stand. I just literally don’t have any. No Wi-Fi. No mobile data. Just vibes. The only time I get access is when I hike my ass to campus, and then it’s a full-on downloading frenzy: docs, packages, StackOverflow threads, random dev memes — you name it.</p>
+
+    <p>But when I’m home?<br />It’s a no-internet, all-grind zone.</p>
+
+    <p>And weirdly enough, it’s turned me into a productivity monster. No WhatsApp messages. No endless scrolling. No “quick” YouTube breaks that somehow last 2 hours. Just me, my code, and the sweet sound of the fan spinning like it’s got problems.</p>
+
+    <h3>Debugging without Google: A Spiritual Journey</h3>
+
+    <p>You ever tried debugging a nasty error without Google or ChatGPT? It starts off with optimism:<br />
+    <em>"Hmm... this should work."</em><br />
+    Then...<br />
+    <em>"Wait, why the hell is this breaking?"</em><br />
+    Then finally, you unleash your ultimate weapon:</p>
+
+    <pre><code>console.log("What the fuck is happening here")</code></pre>
+
+    <p>Still nothing. You’re staring at your terminal like it just betrayed you.</p>
+
+    <p>But then — just then — something clicks. You fix the bug. You beat the error. And the dopamine hit? <strong>Stronger than any viral TikTok.</strong> That’s the kind of high that builds devs, not copy-pasting some magic snippet from StackOverflow you don’t even understand.</p>
+
+    <h3>Offline Mode = Training Arc</h3>
+
+    <p>Working offline is like putting on weighted clothes in an anime. You suffer, yes. But when you do get access to the internet again, you're a different breed. You don’t panic at errors. You think deeper. You write cleaner code. You even start naming your variables properly (okay, maybe not always).</p>
+
+    <p>Sure, there are moments I wish I had internet. Maybe to Google a bug. Or, let’s be honest, to rewatch Messi highlights for the 100th time. But in this weird way, not having internet has made me a better dev. A more focused one. A more angry one sometimes, sure... but still better.</p>
+
+    <h3>Should You Try It?</h3>
+
+    <p>Yes. For a day or two, go full monk mode. No internet. Just code. Let the silence mock you while you try to figure out why the loop won’t break. It’s painful, but it’s powerful.</p>
+
+    <p>Internet is a beautiful thing — I mean, I’d sell a kidney to stream some Netflix right now. But learning to code without it every now and then? <strong>That’s a superpower.</strong></p>
+
+    <h3>Final Thoughts</h3>
+
+    <p>So yeah, I may not have constant internet access, but I’ve got drive, focus, and some very aggressive <code>console.log</code>s. Offline Zigla is still beast mode Zigla. And when midnight hits and I steal Mom’s phone for a quick Google search?<br />
+    That’s just called balance. 😌</p>
   `,
   },
 ];

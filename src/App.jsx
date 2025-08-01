@@ -51,23 +51,23 @@ function App() {
     console.log("Search Results", newSearchResults);
   }
 
-  useEffect(() => {
-    const fetchBlog = async () => {
-      const { data, error } = await supabase
-        .from("blog")
-        .select("*")
-        .order("blog_number", { ascending: true });
+  // useEffect(() => {
+  //   const fetchBlog = async () => {
+  //     const { data, error } = await supabase
+  //       .from("blog")
+  //       .select("*")
+  //       .order("blog_number", { ascending: true });
 
-      if (error) {
-        console.error("Error fetching blogs:", error);
-        return;
-      }
+  //     if (error) {
+  //       console.error("Error fetching blogs:", error);
+  //       return;
+  //     }
 
-      setBlogs(data);
-    };
+  //     setBlogs(data);
+  //   };
 
-    fetchBlog();
-  }, []);
+  //   fetchBlog();
+  // }, []);
 
 
   useEffect(() => {
@@ -102,7 +102,8 @@ function App() {
               searchBlog={searchBlog} 
               blogs={availableBlogs} 
               selectedPost={selectedPost}
-              setSelectedPost={setSelectedPost}  
+              setSelectedPost={setSelectedPost}
+              setSearchBlog={setSearchResult}
               searhedBlogs={searchResults} />
             </> } 
           />
