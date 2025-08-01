@@ -955,7 +955,7 @@ const blogs = [
   `,
   },
   {
-    id: 27,
+    id: 26,
     title: "Am I Really Gay?",
     date: "July 30, 2025",
     image: new URL("../assets/blogs/am-i-gay.png", import.meta.url).href,
@@ -1043,7 +1043,7 @@ const blogs = [
   `,
   },
   {
-    id: 28,
+    id: 27,
     title: "How Productive Could You Be Without Internet Access?",
     date: "August 1, 2025",
     image: new URL("../assets/blogs/offline-productivity.png", import.meta.url)

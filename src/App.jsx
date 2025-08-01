@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import BlogsPage from "./pages/BlogsPage";
 import blogs from './data/blogs';
-import tagsWithIds from "./utils/tagsWithIds";
+import tagsWithIds, {titlesWithIds} from "./utils/tagsWithIds";
 
 import { supabase } from "./utils/supabase.config";
 
@@ -21,7 +21,8 @@ function App() {
   const [searchWord, setSearchWord] = useState("");
   const [searchResults, setSearchResult] = useState(null);  
   const [availableBlogs, setBlogs] = useState(blogs);
-
+  
+  const titlesAndBlogIds = titlesWithIds(blogs);
   const tagsAndBlogIds = tagsWithIds(blogs);
   console.log("Blogs reference changed:", blogs);
 
@@ -45,6 +46,26 @@ function App() {
         newSearchResults.push(foundBlog);
       }
     });
+
+    searchBlogIds = [];
+    if(newSearchResults.length == 0){
+      for(const [key, value] of Object.entries(titlesAndBlogIds)){
+        if ( (searchWord.toLowerCase() == key || key.includes(searchWord.toLowerCase()) ) && Array.isArray(value)) {
+          console.log("Key", key, "Value: ", value)
+          searchBlogIds.push(...value);
+        }
+      }
+      let seen = [];
+      searchBlogIds.forEach((id) => {
+        if(!seen.includes(id)){
+          const foundBlog = availableBlogs[id - 1];
+          if (foundBlog) {
+            newSearchResults.push(foundBlog);
+          }
+          seen.push(id);
+        }
+      });
+    }
     setSearchResult(newSearchResults);
     console.log("SearchBlog: ", searchBlogIds);
     console.log("Search word: ", searchWord)
