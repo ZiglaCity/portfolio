@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 
 export default function Sorter ({sortBlogs}){
   return (
-    <motion.div className="mt-3.5 mx-2" title="Sort based on time posted"
+    <motion.div className="mt-3.5 mx-2" title="Sort by date posted"
       initial={{ opacity: 0, y: -50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}>

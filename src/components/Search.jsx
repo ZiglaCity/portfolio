@@ -17,6 +17,7 @@ export default function Search({ setSearchWord, searchBlog }) {
         onChange={handleChange}
         type="text"
         placeholder="Search blog..."
+        title="Input tags or blog title keyword to be searched"
       />
       <button
         className="h-10 px-4 bg-purple-600 text-white rounded-sm hover:bg-purple-700 transition cursor-pointer"
