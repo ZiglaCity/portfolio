@@ -1,14 +1,16 @@
-export default function tagsWithIds(blogs) {
+export default function tagsWithIds(blogs, isSorted) {
+  let n = blogs.length + 1;
   let tagsWithIds = {};
   if (blogs && blogs.length > 0) {
     blogs.forEach((blog) => {
       const tags = blog.tags;
       tags.forEach((tag) => {
         let t = tag.toLowerCase();
+        let index = isSorted ? n - blog.id : blog.id;
         if (tagsWithIds[t]) {
-          tagsWithIds[t].push(blog.id);
+          tagsWithIds[t].push(index);
         } else {
-          tagsWithIds[t] = [blog.id];
+          tagsWithIds[t] = [index];
         }
       });
     });
@@ -17,19 +19,20 @@ export default function tagsWithIds(blogs) {
   }
 }
 
-export function titlesWithIds(blogs) {
+export function titlesWithIds(blogs, isSorted) {
   let titlesAndIds = {};
-
+  let n = blogs.length + 1;
   if (blogs && blogs.length > 0) {
     blogs.forEach((blog) => {
-      titlesAndIds[blog.title.toLowerCase()] = [blog.id];
+      let index = isSorted ? n - blog.id : blog.id;
+      titlesAndIds[blog.title.toLowerCase()] = [index];
       const titles = blog.title.split(" ");
       titles.forEach((title) => {
         let t = title.toLowerCase();
         if (titlesAndIds[t]) {
-          titlesAndIds[t].push(blog.id);
+          titlesAndIds[t].push(index);
         } else {
-          titlesAndIds[t] = [blog.id];
+          titlesAndIds[t] = [index];
         }
       });
     });
