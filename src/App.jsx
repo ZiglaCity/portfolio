@@ -34,8 +34,7 @@ function App() {
     let searchBlogIds = [];
     let newSearchResults = [];
     if (!searchWord || searchWord === ""){
-      newSearchResults = availableBlogs;
-      setSearchResult(newSearchResults);
+      setSearchResult(availableBlogs);
       return
     }
     for(const [key, value] of Object.entries(tagsAndBlogIds)){
