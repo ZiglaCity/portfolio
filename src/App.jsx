@@ -44,34 +44,23 @@ function App() {
         searchBlogIds.push(...value);
       }
     }
-
+    
+    for(const [key, value] of Object.entries(titlesAndBlogIds)){
+      if ( (searchWord.toLowerCase() == key || key.includes(searchWord.toLowerCase()) ) && Array.isArray(value)) {
+        console.log("Key", key, "Value: ", value)
+        searchBlogIds.push(...value);
+      }
+    }
+    let seen = [];
     searchBlogIds.forEach((id) => {
-      const foundBlog = availableBlogs[id - 1];
-      if (foundBlog) {
-        newSearchResults.push(foundBlog);
+      if(!seen.includes(id)){
+        const foundBlog = availableBlogs[id - 1];
+        if (foundBlog) {
+          newSearchResults.push(foundBlog);
+        }
+        seen.push(id);
       }
     });
-
-    searchBlogIds = [];
-    // for now, even if we get blogs by tag, lets include the titles
-    if(newSearchResults.length == 0 || true){
-      for(const [key, value] of Object.entries(titlesAndBlogIds)){
-        if ( (searchWord.toLowerCase() == key || key.includes(searchWord.toLowerCase()) ) && Array.isArray(value)) {
-          console.log("Key", key, "Value: ", value)
-          searchBlogIds.push(...value);
-        }
-      }
-      let seen = [];
-      searchBlogIds.forEach((id) => {
-        if(!seen.includes(id)){
-          const foundBlog = availableBlogs[id - 1];
-          if (foundBlog) {
-            newSearchResults.push(foundBlog);
-          }
-          seen.push(id);
-        }
-      });
-    }
     setSearchResult(newSearchResults);
     console.log("SearchBlog: ", searchBlogIds);
     console.log("Search word: ", searchWord)
