@@ -12,6 +12,7 @@ import About from './components/About';
 import BlogsPage from "./pages/BlogsPage";
 import blogs from './data/blogs';
 import tagsWithIds, {titlesWithIds} from "./utils/tagsWithIds";
+import { sortSearchedResult } from './utils/utils'; 
 
 import { supabase } from "./utils/supabase.config";
 const initialTitlesAndBlogIds = titlesWithIds(blogs, false);
@@ -72,7 +73,12 @@ function App() {
     for(let i = n; i > -1; i--){
       sortedBlogs.push(availableBlogs[i]);
     }
-    // later also sort searched blogs and update them...
+
+    if (searchResults && searchResults.length > 0){
+      const sortedResult = sortSearchedResult(searchResults);
+      setSearchResult(sortedResult);
+    }
+    
     console.log("sorted blogs: ", sortedBlogs)
     setBlogs(sortedBlogs);
     let updatedTitlesWithIds = titlesWithIds(sortedBlogs, !isSorted);
