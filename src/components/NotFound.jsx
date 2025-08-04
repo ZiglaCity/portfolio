@@ -8,7 +8,7 @@ export default function NotFound({type, setSearchBlog}){
 		return (
 			<div className="text-center py-20 px-4">
 				<h1 className="text-2xl sm:text-3xl font-bold mb-6 text-gray-300">
-					Damn. Nothing here but tumbleweeds. 🌵
+					Damn! Nothing here but tumbleweeds. 🌵
 				</h1>
 				<p className="text-lg text-gray-400 mb-8">
 					Either I haven’t written that blog yet... or you just made it up 😅<br />
