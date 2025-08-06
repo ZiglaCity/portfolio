@@ -1094,6 +1094,315 @@ const blogs = [
     That’s just called balance. 😌</p>
   `,
   },
+  {
+    id: 28,
+    title:
+      "That Moment You Realize You’ve Been on the Wrong Branch the Whole Time",
+    date: "August 2, 2025",
+    image: new URL("../assets/blogs/wrong-branch.png", import.meta.url).href,
+    tags: ["Dev Life", "Git", "Funny", "Real Talk"],
+    excerpt:
+      "You spent 4 hours refactoring, fixing, pushing commits... just to realize it was all on the wrong branch. Congrats. You played yourself.",
+    content: `
+  <p>
+    Everything's flowing. You’re coding like a beast, making commits like “final-final-fix-really-this-time”, pushing every 15 minutes like GitHub is a diary.
+  </p>
+
+  <p>
+    Then boom — you check the branch.
+    <strong>main</strong>.
+    Not <code>feature/fix-navbar</code>.
+    Not <code>bug/hotfix-layout</code>.
+    Nah... <strong>main</strong>.
+  </p>
+
+  <p>
+    Your soul quietly exits your body. You just spent 4 hours rewriting components, adding animations, changing styles... on the wrong branch. No wonder the CI/CD gods haven’t smiled on you today.
+  </p>
+
+  <p>
+    Now you’re panicking. Opening Git Graph. Copying files to clipboard. Cherry-picking commits like it’s a buffet. And don't even lie — you've definitely opened another terminal and typed <code>git status</code> like five times just to feel something.
+  </p>
+
+  <p>
+    Then comes the damage control:
+    <ul>
+      <li>Rename the branch like you meant to do it all along ✅</li>
+      <li>Pull from main like a pro (and pray nothing breaks) ✅</li>
+      <li>Tell your teammates “just a small refactor” when you’ve changed half the app ✅</li>
+    </ul>
+  </p>
+
+  <p>
+    Honestly? At this point, you deserve a badge of survival. Git is powerful, yeah — but Git is also petty. And it will humble you.
+  </p>
+
+  <p>
+    So next time? <strong>Check the branch</strong> first. Before you write a single line. Or don’t — and enjoy the adrenaline rush like the rest of us.
+  </p>
+  `,
+  },
+  {
+    id: 29,
+    title: "I Told Myself I Was Taking a 10-Minute Break…",
+    date: "August 3, 2025",
+    image: new URL("../assets/blogs/10-minute-break.png", import.meta.url).href,
+    tags: ["Productivity", "Distraction", "Dev Life", "Relatable"],
+    excerpt:
+      "Started with a short break. Ended up watching a guy build a hut in the forest using only a spoon. Typical Tuesday.",
+    content: `
+  <p>
+    “Just 10 minutes” — the greatest lie I’ve ever told myself.
+  </p>
+
+  <p>
+    One second, I’m deep into my code, mentally wrestling with a bug that’s refusing to die. So I do what any normal developer would do… I convince myself I deserve a <em>tiny</em> break.
+  </p>
+
+  <p>
+    I get up, stretch, maybe grab some water, then boom — the phone enters the chat. That innocent “lemme check one notification” quickly spirals into a full-on content safari. Suddenly, I’m watching a dude in the forest build a solar-powered swimming pool with nothing but a spoon and three leaves.
+  </p>
+
+  <p>
+    Two videos later, I’m on Reddit reading about a cat who learned Python. I scroll, laugh, maybe cry a bit — who knows? — then realize: wait… what was I even doing before this??
+  </p>
+
+  <p>
+    I tab back into VS Code. Blank stare. No idea where I left off. The bug? Still undefeated. My break? Now a feature-length film.
+  </p>
+
+  <p>
+    It gets worse when I try to “feel productive” again by checking my emails — which leads to Slack — which leads to someone’s GitHub repo — which leads to a blog post about “How I Scaled My Startup to 1M Users in 6 Months” — which leads to me questioning all my life decisions.
+  </p>
+
+  <p>
+    And the worst part? I <strong>always</strong> act surprised when it happens. Like I didn’t know my brain is a professional overthinker and procrastinator in one.
+  </p>
+
+  <p>
+    So here’s my advice — if you ever tell yourself “10 minutes”… set a damn timer. Or better yet, don’t touch your phone. Or better-better yet, just accept the fact that that break is gonna be a whole damn journey.
+  </p>
+
+  <p>
+    Because let’s face it: you don’t take 10-minute breaks. You take quests.
+  </p>
+
+  <p>
+    But hey — if you come back with a cleared head and a couple laughs… maybe that spoon hut wasn’t such a bad detour after all.
+  </p>
+  `,
+  },
+  {
+    id: 30,
+    title: "I Don’t Remember Writing This Code…",
+    date: "August 3, 2025",
+    image: new URL("../assets/blogs/code-amnesia.png", import.meta.url).href,
+    tags: ["Dev Life", "Relatable", "Late Night Coding", "WTF Moments"],
+    excerpt:
+      "There’s nothing more humbling than opening your own code and thinking, 'Who tf wrote this?'… and it was you. Last night. At 2AM.",
+    content: `
+  <p>
+    So I open a file from a project I was working on last week — something light. Just reviewing old logic. But as I scroll through the code, I freeze. This ain't mine.
+  </p>
+
+  <p>
+    I mean, technically it <em>is</em>. VS Code even has the audacity to say I committed it. But I’m staring at a block of logic so foreign, I lowkey feel like I hacked myself.
+  </p>
+
+  <p>
+    Comments? Nowhere to be found. Variable names? Bro, what the hell is <code>flaggedGhostChunk</code> supposed to mean??
+  </p>
+
+  <p>
+    Then it hits me… this is one of those 2AM masterpieces. You know the ones — you were vibing, maybe playing lo-fi or deep trap, slightly sleep-deprived, completely locked in. You enter a flow state so dangerous you start feeling like a God.
+  </p>
+
+  <p>
+    But here’s the problem: You wrote it like the bug was the enemy… and now it’s YOU who can’t even trace the logic. Betrayed by your own genius.
+  </p>
+
+  <p>
+    And the worst part? You can’t touch it. Like, it works perfectly. All tests pass. Deployment was smooth. But you can’t refactor it ‘cause you don’t even know what to preserve.
+  </p>
+
+  <p>
+    So you just close the file slowly, whisper “don’t break,” and move on with your life like it never happened.
+  </p>
+
+  <p>
+    Lesson learned: Late-night code is like drunk texts — sometimes you gotta just accept it, hope for the best, and pray you don’t have to explain it in an interview.
+  </p>
+
+  <p>
+    Until then… flaggedGhostChunk stays untouched.
+  </p>
+  `,
+  },
+  {
+    id: 31,
+    title: "Why Do I Debug Like I'm Defusing a Bomb?",
+    date: "August 4, 2025",
+    image: new URL("../assets/blogs/debug-bomb.jpg", import.meta.url).href,
+    tags: ["Dev Life", "Debugging", "Funny", "Real Talk"],
+    excerpt:
+      "One missing semicolon and I’m treating the situation like I’m in Mission Impossible — sweating, whispering to the code, scared to touch anything.",
+    content: `
+  <p>
+    Bro… have you ever debugged so cautiously, you started whispering like the code could hear you?
+  </p>
+
+  <p>
+    One time, I was fixing a random bug — app wouldn’t render one component. That’s it. Just one. Next thing I know, I’m 3 hours deep, breathing like I’m defusing a nuke in a Jason Bourne movie.
+  </p>
+
+  <p>
+    And don’t get me started on the “console.log” ritual — place one here, one there, move one inside the loop, sacrifice one to the async gods, whisper “please work” and hit refresh.
+  </p>
+
+  <p>
+    You ever stare at one line for so long you convince yourself JavaScript is broken? Like, <em>“I KNOW this condition is true, stop lying to me!!!”</em>
+  </p>
+
+  <p>
+    Then out of nowhere — boom 💥 — it starts working. No explanation. You didn’t change anything. You just re-saved the file, or maybe the wind shifted direction, and the bug vanished. Gone.
+  </p>
+
+  <p>
+    And now you’re scared. Scared to touch <em>anything</em>. You’re hovering over your keyboard like it’s gonna bite you. One more edit and the whole app might collapse again.
+  </p>
+
+  <p>
+    Debugging is supposed to be logical. Step-by-step. But nah… I’m out here treating it like spiritual warfare.
+  </p>
+
+  <p>
+    Midnight Coding never prepared me for the emotional damage.
+  </p>
+
+  <p>
+    But we move. Bug-free. For now.
+  </p>
+  `,
+  },
+  {
+    id: 32,
+    title: "Imposter Syndrome Olympics",
+    date: "August 4, 2025",
+    image: new URL("../assets/blogs/imposter-olympics.png", import.meta.url)
+      .href,
+    tags: ["Mindset", "Dev Life", "Funny", "Mental Health"],
+    excerpt:
+      "Built an app from scratch? Solved 300+ LeetCode problems? Debugged an entire backend? Cool. Now… explain why you still feel like a fraud.",
+    content: `
+  <p>
+    You ever just sit there after solving a hard-ass problem or finishing a clean-ass project… and still feel like you know <strong>absolutely nothing</strong>?
+  </p>
+
+  <p>
+    Like… you literally built an app from scratch, handled routing, optimized performance, wrote unit tests, and connected it to a backend you also built. But the moment someone asks, “So how does React actually render the DOM?” you start sweating like you just saw your crush with someone else.
+  </p>
+
+  <p>
+    Or maybe you’ve solved 300+ LeetCode problems — recursion, dynamic programming, graphs, trees — the works. But one night, you see a problem titled “Easy: Sum Two Numbers” and your brain goes, <em>“Wait… how do variables work again?”</em>
+  </p>
+
+  <p>
+    And don’t even get me started on tech interviews. One minute you're running Docker containers, the next you're like, “Wait… what’s the difference between a process and a thread again?” 💀
+  </p>
+
+  <p>
+    It’s like my inner monologue is a whole performance:
+    <em>“Act like you know what you’re doing. You’re the dev. You got this. Don’t let them know you’re just out here winging it and reading docs mid-meeting.”</em>
+  </p>
+
+  <p>
+    Meanwhile, your terminal history’s like:
+    <ul>
+      <li><code>how to reverse a linked list</code></li>
+      <li><code>git revert vs reset</code></li>
+      <li><code>tailwind text not showing??</code></li>
+      <li><code>javascript sort function brain fog help</code></li>
+    </ul>
+  </p>
+
+  <p>
+    But hey — here’s what I’ve realized:
+    <strong>Feeling lost doesn’t mean you’re not growing.</strong>
+    Feeling like an imposter usually means you're actually pushing your limits.
+    You're not stuck. You're just leveling up — and it’s uncomfortable as hell.
+  </p>
+
+  <p>
+    So yeah, I might act like I know nothing sometimes.
+    I might downplay my wins, question my progress, and even compare myself to people who've been in the game longer than I’ve been alive.
+  </p>
+
+  <p>
+    But one thing’s for sure — I’m still here.
+    Still building. Still solving. Still showing up.
+  </p>
+
+  <p>
+    Imposter or not… <strong>I’m in the damn arena.</strong>
+  </p>
+  `,
+  },
+  {
+    id: 33,
+    title: "My Bad Habit… You Won’t Guess It.",
+    date: "August 6, 2025",
+    image: new URL("../assets/blogs/bad-habit.png", import.meta.url).href,
+    tags: ["Mindset", "Coding Life", "Real Talk"],
+    excerpt:
+      "Some people bite their nails. Some scroll TikTok all day. Me? I accidentally turn LeetCode into a lullaby and debug in my dreams. It’s not funny. Or maybe it is?",
+    content: `
+  <p>
+    Bro... everyone has that one <strong>bad habit</strong> they ain’t proud of but still do anyway. You know, the type you swear you’ll fix by next week but you’re already planning to do it again tonight?
+  </p>
+
+  <p>
+    Mine? You won’t even see it coming.
+  </p>
+
+  <p>
+    You could walk into my room at 11PM and see me peacefully laid out like I’m two minutes into REM sleep — head on the pillow, lights off, soft lo-fi playing. But inside my head? It’s chaos. 
+    <em>Code chaos</em>.
+  </p>
+
+  <p>
+    I’m deep in thought trying to optimize a LeetCode problem I solved 3 days ago. Or rethinking a backend bug I met earlier. Like — bro. Why is my brain debugging when my body is trying to SLEEP??
+  </p>
+
+  <p>
+    And the worst part? It doesn’t stop there. Once I finally drift off, I sometimes wake up at 2:47AM like, <code>“Wait... what if I use a HashMap instead?”</code>. 
+    I’ll be lying there, staring at the ceiling, debating whether to open my laptop and write the idea down or risk forgetting it. Guess which one usually wins? 
+  </p>
+
+  <p>
+    It’s bad, man. It happens in bed, in lectures, in troskis. I’ll be zoning out mid-convo just to mentally replay a bug that’s been biting me all day. 
+    Bro’s present physically, but mentally he’s writing TypeScript in the 8th dimension.
+  </p>
+
+  <p>
+    Some people smoke. Some overthink. Some spend 3 hours on TikTok. Me? I mentally speedrun algorithms at night like I’m prepping for the Codeforces finals IN MY DREAMS.
+  </p>
+
+  <p>
+    You might say it’s not a <em>bad</em> habit. You might even say it’s a sign of passion. But lemme tell you something — 
+    when your brain can’t turn off, it stops feeling like passion and starts feeling like prison. 
+    I just want a single night of peace, not <code>O(n log n)</code> dreams.
+  </p>
+
+  <p>
+    How do I stop this? No idea.
+    But one day, I’ll write a sleep-tracking app that detects if I start thinking in code… and zaps me back to rest mode 💀.
+  </p>
+
+  <p>
+    Until then, pray for me. Or better yet — send melatonin.
+  </p>
+  `,
+  },
 ];
 
 export default blogs;
