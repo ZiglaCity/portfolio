@@ -4,11 +4,11 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Experience from './components/Timeline';
-import Blog from './components/Blog';
 import Post from './components/Post';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import About from './components/About';
+import PageNotFound from './components/PageNotFound';
 import BlogsPage from "./pages/BlogsPage";
 import blogs from './data/blogs';
 import tagsWithIds, {titlesWithIds} from "./utils/tagsWithIds";
@@ -126,7 +126,7 @@ function App() {
   console.log("Available blogs before rendering: ", availableBlogs);
 
   return (
-    <div className="min-h-screen flex flex-col bg-white text-black dark:bg-zinc-900 dark:text-white">
+    <div className="min-h-screen flex flex-col bg-gray-950 text-black dark:bg-zinc-900 dark:text-white">
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <main className="flex-grow">
         <Routes>
@@ -151,9 +151,9 @@ function App() {
               searhedBlogs={searchResults} />
             </> } 
           />
-          <Route path="/blog" element={<Blog online_blogs={blogs}/>} />
           <Route path="/blog/:slug" element={<Post />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </main>
       <Footer />
