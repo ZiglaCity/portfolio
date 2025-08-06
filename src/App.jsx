@@ -12,7 +12,7 @@ import About from './components/About';
 import BlogsPage from "./pages/BlogsPage";
 import blogs from './data/blogs';
 import tagsWithIds, {titlesWithIds} from "./utils/tagsWithIds";
-import { sortSearchedResult } from './utils/utils'; 
+import { sortSearchedResult, formatFetchedBlogs } from './utils/utils'; 
 
 import { supabase } from "./utils/supabase.config";
 const initialTitlesAndBlogIds = titlesWithIds(blogs, false);
@@ -100,7 +100,13 @@ function App() {
         return;
       }
 
-      setBlogs(data);
+      const formattedData = formatFetchedBlogs(data);
+
+      let latestTTBI = titlesWithIds(formattedData, isSorted)
+      let latestTBI = tagsWithIds(formattedData, isSorted);
+      setTitlesAndBlogIds(latestTTBI);
+      setTagsAndBlogIds(latestTBI);
+      setBlogs(formattedData);
     };
 
     fetchBlog();

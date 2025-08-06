@@ -6,3 +6,14 @@ export function sortSearchedResult(searchResult) {
   }
   return result;
 }
+export function formatFetchedBlogs(blogs) {
+  return blogs.map((blog) => ({
+    id: blog.blog_number,
+    title: blog.title,
+    date: blog.date,
+    image: blog.image,
+    tags: blog.tags,
+    excerpt: blog.excerpt,
+    content: blog.content,
+  }));
+}
